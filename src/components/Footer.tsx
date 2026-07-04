@@ -29,10 +29,10 @@ const footerLinks: Record<string, { label: string; href: string }[]> = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t-4 border-blue-600">
+    <footer className="bg-white border-t-4 border-sky-600">
 
       {/* CTA Banner */}
-      <div className="bg-blue-600 py-10">
+      <div className="bg-sky-600 py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-white font-black text-2xl uppercase tracking-wide">
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <Link
             to="/contact"
-            className="shrink-0 inline-flex items-center gap-2 bg-white text-blue-600 hover:bg-blue-50 font-black uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg"
+            className="shrink-0 inline-flex items-center gap-2 bg-white text-sky-600 hover:bg-sky-50 font-black uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg"
           >
             Request a Quote <ArrowRight size={16} />
           </Link>
@@ -64,7 +64,7 @@ export default function Footer() {
               className="h-20 w-auto object-contain p-1"
             />
             </Link>
-            <p className="text-blue-600 text-sm font-bold uppercase tracking-wide mb-2">
+            <p className="text-sky-600 text-sm font-bold uppercase tracking-wide mb-2">
               Commit to Quality, Deliver with Pride
             </p>
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">
@@ -78,12 +78,12 @@ export default function Footer() {
                 { icon: MapPin, text: 'C-1/389, Shop No. 1-2, Shree Pramukh Swami Industrial Estate, GIDC, Makarpura, Vadodara - 390 010', href: 'https://maps.google.com' },
               ].map(item => (
                 <div key={item.text} className="flex items-start gap-2 text-gray-500">
-                  <item.icon size={14} className="text-blue-600 shrink-0 mt-0.5" />
+                  <item.icon size={14} className="text-sky-600 shrink-0 mt-0.5" />
                   <a
                     href={item.href}
                     target={item.href.startsWith('http') ? '_blank' : undefined}
                     rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                    className="hover:text-blue-600 transition-colors leading-tight"
+                    className="hover:text-sky-600 transition-colors leading-tight"
                   >
                     {item.text}
                   </a>
@@ -95,7 +95,7 @@ export default function Footer() {
           {/* Link columns */}
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
-              <h4 className="text-gray-900 font-bold uppercase tracking-widest text-xs mb-5 pb-3 border-b-2 border-blue-600">
+              <h4 className="text-gray-900 font-bold uppercase tracking-widest text-xs mb-5 pb-3 border-b-2 border-sky-600">
                 {title}
               </h4>
               <ul className="space-y-2.5">
@@ -103,9 +103,9 @@ export default function Footer() {
                   <li key={link.label}>
                     <Link
                       to={link.href}
-                      className="text-gray-500 text-sm hover:text-blue-600 transition-colors flex items-center gap-1.5 group"
+                      className="text-gray-500 text-sm hover:text-sky-600 transition-colors flex items-center gap-1.5 group"
                     >
-                      <span className="w-0 h-0.5 bg-blue-600 group-hover:w-3 transition-all duration-200" />
+                      <span className="w-0 h-0.5 bg-sky-600 group-hover:w-3 transition-all duration-200" />
                       {link.label}
                     </Link>
                   </li>
@@ -127,7 +127,7 @@ export default function Footer() {
                 href="https://unify360.in"
                 target="_blank"
                 rel="noopener noreferrer"
-                  className="text-blue-600 font-bold hover:text-blue-700 transition-colors"
+                  className="text-sky-600 font-bold hover:text-sky-700 transition-colors"
               >
                 Unify-360
               </a>

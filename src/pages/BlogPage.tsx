@@ -90,25 +90,25 @@ export default function BlogPage() {
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-transparent to-neutral-900/20" />
-              <div className="absolute top-4 left-4 bg-blue-600 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
+              <div className="absolute top-4 left-4 bg-sky-600 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
                 Featured
               </div>
             </div>
             <div className="p-8 lg:p-10 flex flex-col justify-center">
               <div className="flex items-center gap-2 mb-3">
-                <Tag size={10} className="text-blue-600" />
-                <span className="text-blue-600 text-[10px] font-bold uppercase tracking-widest">{featured.category}</span>
+                <Tag size={10} className="text-sky-600" />
+                <span className="text-sky-600 text-[10px] font-bold uppercase tracking-widest">{featured.category}</span>
               </div>
-              <h2 className="text-2xl md:text-3xl font-black uppercase tracking-wide leading-tight mb-4 group-hover:text-blue-600 transition-colors">
+              <h2 className="text-2xl md:text-3xl font-black uppercase tracking-wide leading-tight mb-4 group-hover:text-sky-600 transition-colors">
                 {featured.title}
               </h2>
               <p className="text-neutral-400 text-sm leading-relaxed mb-6">{featured.excerpt}</p>
               <div className="flex items-center gap-4 text-xs text-neutral-500 mb-6">
-                <span className="flex items-center gap-1"><User size={10} className="text-blue-600" />{featured.author}</span>
-                <span className="flex items-center gap-1"><Calendar size={10} className="text-blue-600" />{featured.date}</span>
+                <span className="flex items-center gap-1"><User size={10} className="text-sky-600" />{featured.author}</span>
+                <span className="flex items-center gap-1"><Calendar size={10} className="text-sky-600" />{featured.date}</span>
                 <span>{featured.readTime}</span>
               </div>
-              <a href="#" className="inline-flex items-center gap-2 text-blue-600 text-xs font-bold uppercase tracking-widest hover:gap-3 transition-all">>
+              <a href="#" className="inline-flex items-center gap-2 text-sky-600 text-xs font-bold uppercase tracking-widest hover:gap-3 transition-all">>
                 Read Full Article <ArrowRight size={12} />
               </a>
             </div>
@@ -119,7 +119,7 @@ export default function BlogPage() {
             {categories.map(cat => (
               <button
                 key={cat}
-                className="px-4 py-2 text-xs font-bold uppercase tracking-widest bg-neutral-900 border border-neutral-700 text-neutral-400 hover:border-blue-600 hover:text-blue-600 transition-colors"
+                className="px-4 py-2 text-xs font-bold uppercase tracking-widest bg-neutral-900 border border-neutral-700 text-neutral-400 hover:border-sky-600 hover:text-sky-600 transition-colors"
               >
                 {cat}
               </button>
@@ -137,17 +137,17 @@ export default function BlogPage() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-neutral-950/60 to-transparent" />
-                  <div className="absolute top-3 left-3 bg-blue-600 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-white">
+                  <div className="absolute top-3 left-3 bg-sky-600 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-white">
                     {post.category}
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-white font-bold text-base uppercase tracking-wide leading-tight mb-3 group-hover:text-blue-400 transition-colors">
+                  <h3 className="text-white font-bold text-base uppercase tracking-wide leading-tight mb-3 group-hover:text-sky-400 transition-colors">
                     {post.title}
                   </h3>
                   <p className="text-neutral-400 text-sm leading-relaxed mb-4 line-clamp-2">{post.excerpt}</p>
                   <div className="flex items-center justify-between text-[10px] text-neutral-500 pt-3 border-t border-neutral-800">
-                    <span className="flex items-center gap-1"><Calendar size={9} className="text-blue-600" />{post.date}</span>
+                    <span className="flex items-center gap-1"><Calendar size={9} className="text-sky-600" />{post.date}</span>
                     <span>{post.readTime}</span>
                   </div>
                 </div>

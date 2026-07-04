@@ -19,12 +19,12 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 justify-center">
-            <div className="w-8 h-0.5 bg-blue-600" />
-            <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Get In Touch</span>
-            <div className="w-8 h-0.5 bg-blue-600" />
+            <div className="w-8 h-0.5 bg-sky-600" />
+            <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">Get In Touch</span>
+            <div className="w-8 h-0.5 bg-sky-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-            Request a <span className="text-blue-600">Quote</span>
+            Request a <span className="text-sky-600">Quote</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto text-sm leading-relaxed">
             Tell us your product requirements and our team will respond within 24 hours with pricing and availability.
@@ -33,7 +33,7 @@ export default function ContactSection() {
 
         <div className="grid lg:grid-cols-5 gap-0 shadow-2xl shadow-gray-200">
           {/* Contact Info Panel */}
-          <div className="lg:col-span-2 bg-blue-600 p-8 lg:p-10 flex flex-col justify-between">
+          <div className="lg:col-span-2 bg-sky-600 p-8 lg:p-10 flex flex-col justify-between">
             <div>
               <h3 className="text-white font-black text-2xl uppercase tracking-wide mb-2">Contact Info</h3>
               <div className="w-12 h-0.5 bg-white/40 mb-8" />
@@ -76,14 +76,11 @@ export default function ContactSection() {
             <div className="mt-10 pt-8 border-t border-white/20">
               <p className="text-white/80 text-sm font-bold uppercase tracking-wider mb-3">Follow Us</p>
               <div className="flex gap-3">
-                {[
-                  { label: 'FB', href: 'https://www.facebook.com/share/1HxGxwpV4S/' },
-                  { label: 'IG', href: 'https://www.instagram.com/sunriseenterprise' },
-                ].map(s => (
-                  <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/20 hover:bg-white hover:text-blue-600 flex items-center justify-center text-white text-xs font-black transition-all duration-200">
-                    {s.label}
-                  </a>
+                {['FB', 'IG'].map(label => (
+                  <span key={label}
+                    className="w-10 h-10 bg-white/20 flex items-center justify-center text-white text-xs font-black">
+                    {label}
+                  </span>
                 ))}
               </div>
             </div>
@@ -93,8 +90,8 @@ export default function ContactSection() {
           <div className="lg:col-span-3 bg-white p-8 lg:p-10 border border-gray-200 border-l-0">
             {sent ? (
               <div className="h-full flex flex-col items-center justify-center text-center gap-4 py-12">
-                <div className="w-16 h-16 bg-blue-50 border-2 border-blue-600 flex items-center justify-center">
-                  <CheckCircle size={32} className="text-blue-600" />
+                <div className="w-16 h-16 bg-sky-50 border-2 border-sky-600 flex items-center justify-center">
+                  <CheckCircle size={32} className="text-sky-600" />
                 </div>
                 <h3 className="text-gray-900 font-black text-2xl uppercase">Message Sent!</h3>
                 <p className="text-gray-500 text-sm max-w-xs">
@@ -102,7 +99,7 @@ export default function ContactSection() {
                 </p>
                 <button
                   onClick={() => setSent(false)}
-                  className="mt-4 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
+                  className="mt-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
                 >
                   Send Another Message
                 </button>
@@ -118,7 +115,7 @@ export default function ContactSection() {
                       onChange={handleChange}
                       required
                       placeholder="Your Name"
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
                     />
                   </div>
                   <div>
@@ -130,7 +127,7 @@ export default function ContactSection() {
                       onChange={handleChange}
                       required
                       placeholder="you@company.com"
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
                     />
                   </div>
                 </div>
@@ -143,7 +140,7 @@ export default function ContactSection() {
                       value={form.phone}
                       onChange={handleChange}
                       placeholder="+91 98765 43210"
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
                     />
                   </div>
                   <div>
@@ -152,7 +149,7 @@ export default function ContactSection() {
                       name="product"
                       value={form.product}
                       onChange={handleChange}
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none"
                     >
                       <option value="">Select product...</option>
                       <option>Flanges</option>
@@ -180,13 +177,13 @@ export default function ContactSection() {
                     required
                     rows={5}
                     placeholder="Please describe the product, grade, size, quantity and delivery timeline..."
-                    className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400"
+                    className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-black uppercase tracking-widest text-sm py-4 flex items-center justify-center gap-3 transition-colors shadow-lg shadow-blue-200"
+                  className="w-full bg-sky-600 hover:bg-sky-700 text-white font-black uppercase tracking-widest text-sm py-4 flex items-center justify-center gap-3 transition-colors shadow-lg shadow-sky-200"
                 >
                   <Send size={16} />
                   Send Your Request

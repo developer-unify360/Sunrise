@@ -128,11 +128,11 @@ export default function ProductsSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-14">
           <div>
             <div className="inline-flex items-center gap-2 mb-4">
-              <div className="w-8 h-0.5 bg-blue-600" />
-              <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Product Range</span>
+              <div className="w-8 h-0.5 bg-sky-600" />
+              <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">Product Range</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-              Our <span className="text-blue-600">Products</span>
+              Our <span className="text-sky-600">Products</span>
             </h2>
             <p className="text-gray-500 mt-3 max-w-xl">
               Proudly presenting a product range par excellence — quality that speaks the global language of precision.
@@ -140,7 +140,7 @@ export default function ProductsSection() {
           </div>
           <Link
             to="/products"
-            className="hidden md:inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors shadow-md"
+            className="hidden md:inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors shadow-md"
           >
             View Full Catalogue <ArrowRight size={14} />
           </Link>
@@ -152,7 +152,7 @@ export default function ProductsSection() {
             <Link
               key={cat.id}
               to="/products"
-              className="group bg-white border border-gray-200 hover:border-blue-600 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 block"
+              className="group bg-white border border-gray-200 hover:border-sky-600 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 block"
             >
               {/* Image with title heading overlay */}
               <div className="relative overflow-hidden h-52">
@@ -163,10 +163,10 @@ export default function ProductsSection() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 {/* Blue bottom accent bar */}
-                <div className="absolute bottom-0 left-0 right-0 h-1 bg-blue-600" />
+                <div className="absolute bottom-0 left-0 right-0 h-1 bg-sky-600" />
                 {/* Product name as image heading */}
                 <div className="absolute bottom-4 left-4 right-4">
-                  <h3 className="text-white font-black text-sm uppercase leading-tight tracking-wide group-hover:text-blue-300 transition-colors">
+                  <h3 className="text-white font-black text-sm uppercase leading-tight tracking-wide group-hover:text-sky-300 transition-colors">
                     {cat.title}
                   </h3>
                 </div>
@@ -177,19 +177,19 @@ export default function ProductsSection() {
                 <ul className="space-y-1">
                   {cat.items.slice(0, 4).map((item) => (
                     <li key={item} className="text-gray-500 text-xs flex items-start gap-1.5">
-                      <span className="w-1 h-1 bg-blue-600 rounded-full flex-shrink-0 mt-[5px]" />
+                      <span className="w-1 h-1 bg-sky-600 rounded-full flex-shrink-0 mt-[5px]" />
                       {item}
                     </li>
                   ))}
                   {cat.items.length > 4 && (
-                    <li className="text-blue-600 text-xs font-bold mt-0.5">
+                    <li className="text-sky-600 text-xs font-bold mt-0.5">
                       +{cat.items.length - 4} more
                     </li>
                   )}
                 </ul>
                 <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between">
-                  <div className="w-6 h-0.5 bg-blue-600 group-hover:w-12 transition-all duration-300" />
-                  <ArrowRight size={13} className="text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <div className="w-6 h-0.5 bg-sky-600 group-hover:w-12 transition-all duration-300" />
+                  <ArrowRight size={13} className="text-sky-600 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
               </div>
             </Link>
@@ -200,7 +200,7 @@ export default function ProductsSection() {
         <div className="text-center mt-10 md:hidden">
           <Link
             to="/products"
-            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest px-8 py-4 transition-colors"
+            className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-8 py-4 transition-colors"
           >
             View Full Catalogue <ArrowRight size={14} />
           </Link>

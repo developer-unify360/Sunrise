@@ -79,14 +79,14 @@ export default function ServicesPage() {
                   alt={svc.title}
                   className="w-full h-96 object-cover border border-gray-200"
                 />
-                <div className="absolute top-6 left-6 w-14 h-14 bg-blue-600 flex items-center justify-center shadow-lg">
+                <div className="absolute top-6 left-6 w-14 h-14 bg-sky-600 flex items-center justify-center shadow-lg">
                   <svc.icon size={26} className="text-white" />
                 </div>
               </div>
               <div className={i % 2 === 1 ? 'lg:order-1' : ''}>
                 <div className="inline-flex items-center gap-2 mb-4">
-                  <div className="w-8 h-0.5 bg-blue-600" />
-                  <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Our Service</span>
+                  <div className="w-8 h-0.5 bg-sky-600" />
+                  <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">Our Service</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-black uppercase leading-tight mb-5 text-gray-900">
                   {svc.title}
@@ -95,14 +95,14 @@ export default function ServicesPage() {
                 <ul className="space-y-2 mb-8">
                   {svc.features.map(f => (
                     <li key={f} className="flex items-center gap-2 text-sm text-gray-700">
-                      <CheckCircle size={14} className="text-blue-600 shrink-0" />
+                      <CheckCircle size={14} className="text-sky-600 shrink-0" />
                       {f}
                     </li>
                   ))}
                 </ul>
                 <Link
                   to="/contact"
-                  className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-xs px-6 py-3 transition-colors"
+                  className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-xs px-6 py-3 transition-colors"
                 >
                   Request a Quote <ArrowRight size={14} />
                 </Link>

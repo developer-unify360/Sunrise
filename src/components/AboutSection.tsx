@@ -31,8 +31,8 @@ export default function AboutSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-blue-600 -z-0" />
-            <div className="absolute top-6 left-6 bg-blue-600 text-white p-5 z-20">
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-sky-600 -z-0" />
+            <div className="absolute top-6 left-6 bg-sky-600 text-white p-5 z-20">
               <div className="text-5xl font-black leading-none">35</div>
               <div className="text-xs uppercase tracking-widest font-bold mt-1">Years of<br/>Excellence</div>
             </div>
@@ -40,12 +40,12 @@ export default function AboutSection() {
 
           <div className="lg:pl-8">
             <div className="inline-flex items-center gap-2 mb-4">
-              <div className="w-8 h-0.5 bg-blue-600" />
-              <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">About Us</span>
+              <div className="w-8 h-0.5 bg-sky-600" />
+              <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">About Us</span>
             </div>
 
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight mb-6 text-gray-900">
-              Quality Steel <span className="text-blue-600">Products</span>
+              Quality Steel <span className="text-sky-600">Products</span>
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-4">
@@ -58,7 +58,7 @@ export default function AboutSection() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-10">
               {highlights.map(item => (
                 <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
-                  <CheckCircle size={15} className="text-blue-600 mt-0.5 shrink-0" />
+                  <CheckCircle size={15} className="text-sky-600 mt-0.5 shrink-0" />
                   {item}
                 </li>
               ))}
@@ -66,7 +66,7 @@ export default function AboutSection() {
 
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-xs px-8 py-4 transition-colors"
+              className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-xs px-8 py-4 transition-colors"
             >
               Learn More About Us
             </a>

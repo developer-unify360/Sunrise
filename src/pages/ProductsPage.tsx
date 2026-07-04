@@ -490,7 +490,7 @@ function ProductCard({ product }: { product: Product }) {
   const visibleSubs = expanded ? product.subcategories : product.subcategories.slice(0, 2);
 
   return (
-    <div className="bg-white border border-gray-200 hover:border-blue-600 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+    <div className="bg-white border border-gray-200 hover:border-sky-600 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
       {/* Image with product name heading */}
       <div className="relative overflow-hidden h-52 flex-shrink-0">
         <img
@@ -500,10 +500,10 @@ function ProductCard({ product }: { product: Product }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
         {/* Blue bottom accent */}
-        <div className="absolute bottom-0 left-0 right-0 h-1 bg-blue-600" />
+        <div className="absolute bottom-0 left-0 right-0 h-1 bg-sky-600" />
         {/* Product name as image heading */}
         <div className="absolute bottom-4 left-4 right-4">
-          <h3 className="text-white font-black text-base uppercase leading-tight group-hover:text-blue-300 transition-colors">
+          <h3 className="text-white font-black text-base uppercase leading-tight group-hover:text-sky-300 transition-colors">
             {product.title}
           </h3>
         </div>
@@ -513,7 +513,7 @@ function ProductCard({ product }: { product: Product }) {
       <div className="border-b border-gray-100">
         {product.specs.map((spec) => (
           <div key={spec.label} className="flex border-b border-gray-50 last:border-0">
-            <div className="bg-blue-600 text-white text-[10px] font-bold uppercase px-3 py-2 w-32 flex-shrink-0 flex items-center leading-tight">
+            <div className="bg-sky-600 text-white text-[10px] font-bold uppercase px-3 py-2 w-32 flex-shrink-0 flex items-center leading-tight">
               {spec.label}
             </div>
             <div className="text-gray-700 text-xs px-3 py-2 flex items-center font-medium leading-tight">
@@ -527,7 +527,7 @@ function ProductCard({ product }: { product: Product }) {
       <div className="p-4 flex-1">
         {visibleSubs.map((sub) => (
           <div key={sub.title} className="mb-3 last:mb-0">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-blue-600 mb-1.5">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-sky-600 mb-1.5">
               {sub.title}
             </p>
             <div className="flex flex-wrap gap-1">
@@ -546,7 +546,7 @@ function ProductCard({ product }: { product: Product }) {
         {product.subcategories.length > 2 && (
           <button
             onClick={() => setExpanded(!expanded)}
-            className="mt-2 flex items-center gap-1 text-blue-600 text-xs font-bold hover:text-blue-700 transition-colors"
+            className="mt-2 flex items-center gap-1 text-sky-600 text-xs font-bold hover:text-sky-700 transition-colors"
           >
             {expanded ? (
               <><ChevronUp size={14} /> Show Less</>
@@ -580,14 +580,14 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Intro banner */}
-          <div className="bg-blue-600 text-white p-6 mb-12 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div className="bg-sky-600 text-white p-6 mb-12 flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
               <p className="font-black text-xl uppercase">Our Products Speak The Global Language of Quality</p>
-              <p className="text-blue-100 text-sm mt-1">Precision Led Performance Can Be Expected Every Time, All The Time.</p>
+              <p className="text-sky-100 text-sm mt-1">Precision Led Performance Can Be Expected Every Time, All The Time.</p>
             </div>
             <Link
               to="/contact"
-              className="flex-shrink-0 bg-white text-blue-600 hover:bg-blue-50 font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors flex items-center gap-2"
+              className="flex-shrink-0 bg-white text-sky-600 hover:bg-sky-50 font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors flex items-center gap-2"
             >
               Request a Quote <ArrowRight size={14} />
             </Link>
@@ -601,8 +601,8 @@ export default function ProductsPage() {
                 onClick={() => setActive(cat)}
                 className={`px-4 py-2 text-xs font-bold uppercase tracking-widest transition-all duration-200 ${
                   active === cat
-                    ? 'bg-blue-600 text-white shadow-md shadow-blue-200'
-                    : 'bg-white border-2 border-gray-200 text-gray-600 hover:border-blue-600 hover:text-blue-600'
+                    ? 'bg-sky-600 text-white shadow-md shadow-sky-200'
+                    : 'bg-white border-2 border-gray-200 text-gray-600 hover:border-sky-600 hover:text-sky-600'
                 }`}
               >
                 {cat}
@@ -615,7 +615,7 @@ export default function ProductsPage() {
 
           {/* Active category description */}
           {active !== 'All' && CATEGORY_DESC[active] && (
-            <div className="mb-8 bg-white border-l-4 border-blue-600 px-5 py-3">
+            <div className="mb-8 bg-white border-l-4 border-sky-600 px-5 py-3">
               <p className="text-gray-600 text-sm leading-relaxed">{CATEGORY_DESC[active]}</p>
             </div>
           )}
@@ -631,18 +631,18 @@ export default function ProductsPage() {
           <div className="text-center mt-16 py-12 border-t border-gray-200">
             <p className="text-gray-500 text-sm mb-2 uppercase tracking-widest font-bold">Have a Project in Mind?</p>
             <h3 className="text-3xl font-black uppercase text-gray-900 mb-6">
-              Let's Discuss Your <span className="text-blue-600">Requirements</span>
+              Let's Discuss Your <span className="text-sky-600">Requirements</span>
             </h3>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg shadow-blue-200"
+                className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg shadow-sky-200"
               >
                 Contact Us <ArrowRight size={16} />
               </Link>
               <a
                 href="tel:+919722775181"
-                className="inline-flex items-center gap-2 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-all duration-200"
+                className="inline-flex items-center gap-2 border-2 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-all duration-200"
               >
                 Call: +91 97227 75181
               </a>

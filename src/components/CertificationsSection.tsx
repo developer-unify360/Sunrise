@@ -56,10 +56,10 @@ export default function CertificationsSection() {
 
           {/* Header */}
           <div className="flex items-center gap-3 mb-10">
-            <div className="w-1 h-10 bg-blue-600 flex-shrink-0" />
+            <div className="w-1 h-10 bg-sky-600 flex-shrink-0" />
             <div>
               <div className="flex items-center gap-2 mb-1">
-                <ShieldCheck size={20} className="text-blue-600" />
+                <ShieldCheck size={20} className="text-sky-600" />
                 <h2 className="text-xl font-black uppercase text-gray-900 tracking-wide">
                   Third Party Inspection
                 </h2>
@@ -75,7 +75,7 @@ export default function CertificationsSection() {
             {inspectors.map(({ name, logo }) => (
               <div
                 key={name}
-                className="group flex flex-col items-center gap-2 bg-gray-50 border border-gray-200 hover:border-blue-400 hover:bg-blue-50 p-3 transition-all duration-200 cursor-default"
+                className="group flex flex-col items-center gap-2 bg-gray-50 border border-gray-200 hover:border-sky-400 hover:bg-sky-50 p-3 transition-all duration-200 cursor-default"
               >
                 <div className="w-full h-14 flex items-center justify-center">
                   <img
@@ -84,7 +84,7 @@ export default function CertificationsSection() {
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>
-                <span className="text-[10px] font-bold uppercase tracking-wide text-gray-500 group-hover:text-blue-600 text-center leading-tight">
+                <span className="text-[10px] font-bold uppercase tracking-wide text-gray-500 group-hover:text-sky-600 text-center leading-tight">
                   {name}
                 </span>
               </div>
@@ -100,10 +100,10 @@ export default function CertificationsSection() {
 
           {/* Header */}
           <div className="flex items-center gap-3 mb-10">
-            <div className="w-1 h-10 bg-blue-600 flex-shrink-0" />
+            <div className="w-1 h-10 bg-sky-600 flex-shrink-0" />
             <div>
               <div className="flex items-center gap-2 mb-1">
-                <BadgeCheck size={20} className="text-blue-600" />
+                <BadgeCheck size={20} className="text-sky-600" />
                 <h2 className="text-xl font-black uppercase text-gray-900 tracking-wide">
                   Standard Followers
                 </h2>
@@ -119,7 +119,7 @@ export default function CertificationsSection() {
             {standards.map(({ name, logo }) => (
               <div
                 key={name}
-                className="group flex flex-col items-center gap-2 bg-white border border-gray-200 hover:border-blue-400 hover:shadow-md p-4 transition-all duration-200 cursor-default"
+                className="group flex flex-col items-center gap-2 bg-white border border-gray-200 hover:border-sky-400 hover:shadow-md p-4 transition-all duration-200 cursor-default"
               >
                 <div className="w-full h-14 flex items-center justify-center">
                   <img
@@ -128,14 +128,14 @@ export default function CertificationsSection() {
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>
-                <span className="text-[10px] font-black uppercase tracking-widest text-blue-600 text-center">
+                <span className="text-[10px] font-black uppercase tracking-widest text-sky-600 text-center">
                   {name}
                 </span>
               </div>
             ))}
           </div>
 
-          <p className="mt-8 text-gray-400 text-xs leading-relaxed border-l-2 border-blue-600 pl-3 max-w-2xl">
+          <p className="mt-8 text-gray-400 text-xs leading-relaxed border-l-2 border-sky-600 pl-3 max-w-2xl">
             Includes ASTM, ASME, DIN, JIS, EN, ANSI, BS, API, NACE, IS, 3A Sanitary &amp; SMS compliance
             across all our product lines.
           </p>

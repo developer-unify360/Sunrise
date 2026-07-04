@@ -65,8 +65,8 @@ export default function AboutPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -top-6 -left-6 w-32 h-32 bg-blue-600 -z-0" />
-              <div className="absolute top-6 left-6 bg-blue-600 text-white p-5 z-20">
+              <div className="absolute -top-6 -left-6 w-32 h-32 bg-sky-600 -z-0" />
+              <div className="absolute top-6 left-6 bg-sky-600 text-white p-5 z-20">
                 <div className="text-5xl font-black leading-none">35</div>
                 <div className="text-xs uppercase tracking-widest font-bold mt-1">Years of<br />Excellence</div>
               </div>
@@ -74,11 +74,11 @@ export default function AboutPage() {
 
             <div className="lg:pl-8">
               <div className="inline-flex items-center gap-2 mb-4">
-                <div className="w-8 h-0.5 bg-blue-600" />
-                <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Our Story</span>
+                <div className="w-8 h-0.5 bg-sky-600" />
+                <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">Our Story</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight mb-6 text-gray-900">
-                A Legacy of <span className="text-blue-600">Quality</span>
+                A Legacy of <span className="text-sky-600">Quality</span>
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 SUNRISE ENTERPRISE, based in Vadodara (Gujarat), is a leading manufacturer and supplier of Stainless Steel Pipes, Fittings, Flanges, Valves and Raw Materials. We have been serving the industry since 1987 with an unwavering commitment to quality.
@@ -89,7 +89,7 @@ export default function AboutPage() {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-10">
                 {highlights.map(item => (
                   <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
-                    <CheckCircle size={15} className="text-blue-600 mt-0.5 shrink-0" />
+                    <CheckCircle size={15} className="text-sky-600 mt-0.5 shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -104,19 +104,19 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 mb-4 justify-center">
-              <div className="w-8 h-0.5 bg-blue-600" />
-              <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">What Drives Us</span>
-              <div className="w-8 h-0.5 bg-blue-600" />
+              <div className="w-8 h-0.5 bg-sky-600" />
+              <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">What Drives Us</span>
+              <div className="w-8 h-0.5 bg-sky-600" />
             </div>
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-              Our Core <span className="text-blue-600">Values</span>
+              Our Core <span className="text-sky-600">Values</span>
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map(v => (
-              <div key={v.title} className="group bg-white p-8 hover:shadow-xl border border-gray-200 hover:border-blue-600 transition-all duration-300 border-t-4 border-t-blue-600">
-                <div className="w-14 h-14 border-2 border-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 transition-colors">
-                  <v.icon size={24} className="text-blue-600 group-hover:text-white transition-colors" />
+              <div key={v.title} className="group bg-white p-8 hover:shadow-xl border border-gray-200 hover:border-sky-600 transition-all duration-300 border-t-4 border-t-sky-600">
+                <div className="w-14 h-14 border-2 border-sky-600 flex items-center justify-center mb-5 group-hover:bg-sky-600 transition-colors">
+                  <v.icon size={24} className="text-sky-600 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="text-gray-900 font-bold text-lg uppercase tracking-wide mb-3">{v.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{v.desc}</p>

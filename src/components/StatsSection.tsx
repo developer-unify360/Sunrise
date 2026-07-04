@@ -30,8 +30,8 @@ function StatItem({ icon: Icon, value, suffix, label, desc, active }: typeof sta
   const count = useCountUp(value, active);
   return (
     <div className="group text-center px-8 py-10 border-r border-white/20 last:border-0">
-      <div className="w-16 h-16 bg-white/10 border-2 border-blue-400 flex items-center justify-center mx-auto mb-5 group-hover:bg-blue-600 transition-colors duration-300">
-        <Icon size={28} className="text-blue-400 group-hover:text-white transition-colors" />
+      <div className="w-16 h-16 bg-white/10 border-2 border-sky-400 flex items-center justify-center mx-auto mb-5 group-hover:bg-sky-600 transition-colors duration-300">
+        <Icon size={28} className="text-sky-400 group-hover:text-white transition-colors" />
       </div>
       <div className="text-5xl font-black text-white mb-2 leading-none">{count}{suffix}</div>
       <div className="text-sm font-bold uppercase tracking-widest text-white mb-1">{label}</div>
@@ -52,7 +52,7 @@ export default function StatsSection() {
   return (
     <section ref={ref} className="relative py-0 overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center bg-fixed" style={{ backgroundImage: `url('${IMG_BG}')` }} />
-      <div className="absolute inset-0 bg-blue-600/85" />
+      <div className="absolute inset-0 bg-sky-600/85" />
       <div className="absolute top-0 left-0 right-0 h-1 bg-white" />
       <div className="relative max-w-7xl mx-auto px-6 py-20">
         <div className="grid grid-cols-2 lg:grid-cols-4 divide-x-0 lg:divide-x divide-white/20">

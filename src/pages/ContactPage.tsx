@@ -38,8 +38,8 @@ export default function ContactPage() {
             ].map(item => {
               const content = (
                 <>
-                  <div className="w-12 h-12 bg-blue-50 border border-blue-200 flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
-                    <item.icon size={20} className="text-blue-600 group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 bg-sky-50 border border-sky-200 flex items-center justify-center shrink-0 group-hover:bg-sky-600 transition-colors duration-300">
+                    <item.icon size={20} className="text-sky-600 group-hover:text-white transition-colors" />
                   </div>
                   <div>
                     <div className="text-gray-400 text-[10px] uppercase tracking-widest font-bold mb-1">{item.label}</div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
               if (item.href) {
                 return (
                   <a key={item.label} href={item.href} target="_blank" rel="noopener noreferrer"
-                    className="bg-white border border-gray-200 hover:border-blue-600 hover:shadow-md p-6 flex items-start gap-4 transition-all duration-300 group">
+                    className="bg-white border border-gray-200 hover:border-sky-600 hover:shadow-md p-6 flex items-start gap-4 transition-all duration-300 group">
                     {content}
                   </a>
                 );
@@ -69,7 +69,7 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-5 gap-0 shadow-xl shadow-gray-200">
 
             {/* Left info panel — blue */}
-            <div className="lg:col-span-2 bg-blue-600 p-8 lg:p-10 flex flex-col justify-between">
+            <div className="lg:col-span-2 bg-sky-600 p-8 lg:p-10 flex flex-col justify-between">
               <div>
                 <h3 className="text-white font-black text-2xl uppercase tracking-wide mb-2">Get a Free Quote</h3>
                 <div className="w-12 h-0.5 bg-white/40 mb-6" />
@@ -119,8 +119,8 @@ export default function ContactPage() {
             <div className="lg:col-span-3 bg-white p-8 lg:p-10 border border-gray-200 border-l-0">
               {sent ? (
                 <div className="h-full flex flex-col items-center justify-center text-center gap-4 py-12">
-                  <div className="w-16 h-16 bg-blue-50 border-2 border-blue-600 flex items-center justify-center">
-                    <CheckCircle size={32} className="text-blue-600" />
+                  <div className="w-16 h-16 bg-sky-50 border-2 border-sky-600 flex items-center justify-center">
+                    <CheckCircle size={32} className="text-sky-600" />
                   </div>
                   <h3 className="text-gray-900 font-black text-2xl uppercase">Message Sent!</h3>
                   <p className="text-gray-500 text-sm max-w-xs">
@@ -128,7 +128,7 @@ export default function ContactPage() {
                   </p>
                   <button
                     onClick={() => setSent(false)}
-                    className="mt-4 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
+                    className="mt-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
                   >
                     Send Another Message
                   </button>
@@ -144,12 +144,12 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Full Name *</label>
                       <input name="name" value={form.name} onChange={handleChange} required placeholder="Your Name"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Email Address *</label>
                       <input name="email" type="email" value={form.email} onChange={handleChange} required placeholder="you@company.com"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                   </div>
 
@@ -157,12 +157,12 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Phone Number</label>
                       <input name="phone" value={form.phone} onChange={handleChange} placeholder="+91 98765 43210"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Product Required</label>
                       <select name="service" value={form.service} onChange={handleChange}
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none">
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none">
                         <option value="">Select product...</option>
                         <option>Flanges</option>
                         <option>Buttweld Fittings</option>
@@ -187,11 +187,11 @@ export default function ContactPage() {
                     <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Requirements / Message *</label>
                     <textarea name="message" value={form.message} onChange={handleChange} required rows={5}
                       placeholder="Please describe the product, grade, size, quantity and delivery timeline..."
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400" />
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400" />
                   </div>
 
                   <button type="submit"
-                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-black uppercase tracking-widest text-sm py-4 flex items-center justify-center gap-3 transition-colors shadow-lg shadow-blue-100">
+                    className="w-full bg-sky-600 hover:bg-sky-700 text-white font-black uppercase tracking-widest text-sm py-4 flex items-center justify-center gap-3 transition-colors shadow-lg shadow-sky-100">
                     <Send size={16} />
                     Send Your Request
                   </button>

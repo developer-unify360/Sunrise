@@ -22,7 +22,7 @@ export default function Header({ scrolled }: HeaderProps) {
   return (
     <>
       {/* Top bar */}
-      <div className="hidden md:block bg-blue-600 fixed top-0 left-0 right-0 z-50">
+      <div className="hidden md:block bg-sky-600 fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-10 text-xs text-white">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 font-semibold">
@@ -37,18 +37,15 @@ export default function Header({ scrolled }: HeaderProps) {
           <div className="flex items-center gap-6">
             <span className="font-semibold">Mon–Sat: 9:00 AM – 6:00 PM</span>
             <div className="flex items-center gap-3 pl-6 border-l border-white/30">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-                className="text-white hover:text-blue-100 transition-colors">
+              <span className="text-white">
                 <Linkedin size={13} />
-              </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
-                className="text-white hover:text-blue-100 transition-colors">
+              </span>
+              <span className="text-white">
                 <Facebook size={13} />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
-                className="text-white hover:text-blue-100 transition-colors">
+              </span>
+              <span className="text-white">
                 <Instagram size={13} />
-              </a>
+              </span>
             </div>
           </div>
         </div>
@@ -58,7 +55,7 @@ export default function Header({ scrolled }: HeaderProps) {
       <header
         className={`fixed left-0 right-0 z-40 transition-all duration-300 top-0 md:top-10 ${
           scrolled
-            ? 'bg-white shadow-lg border-b-2 border-blue-600'
+            ? 'bg-white shadow-lg border-b-2 border-sky-600'
             : 'bg-white/95 backdrop-blur-sm border-b border-gray-100'
         }`}
       >
@@ -82,12 +79,12 @@ export default function Header({ scrolled }: HeaderProps) {
                   to={link.href}
                   className={`px-4 py-2 text-sm font-bold uppercase tracking-wider transition-all duration-200 relative group ${
                     isActive
-                      ? 'text-blue-600'
-                      : 'text-gray-700 hover:text-blue-600'
+                      ? 'text-sky-600'
+                      : 'text-gray-700 hover:text-sky-600'
                   }`}
                 >
                   {link.label}
-                  <span className={`absolute bottom-0 left-4 right-4 h-0.5 bg-blue-600 transition-transform duration-200 ${isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`} />
+                  <span className={`absolute bottom-0 left-4 right-4 h-0.5 bg-sky-600 transition-transform duration-200 ${isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`} />
                 </Link>
               );
             })}
@@ -96,7 +93,7 @@ export default function Header({ scrolled }: HeaderProps) {
           {/* CTA */}
           <Link
             to="/contact"
-            className="hidden lg:flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-all duration-200 shadow-md hover:shadow-blue-200 hover:shadow-lg"
+            className="hidden lg:flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-all duration-200 shadow-md hover:shadow-sky-200 hover:shadow-lg"
           >
             Get a Quote
           </Link>
@@ -104,7 +101,7 @@ export default function Header({ scrolled }: HeaderProps) {
           {/* Mobile toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden text-gray-700 p-2 hover:text-blue-600 transition-colors"
+            className="lg:hidden text-gray-700 p-2 hover:text-sky-600 transition-colors"
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -112,7 +109,7 @@ export default function Header({ scrolled }: HeaderProps) {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="lg:hidden bg-white border-t-2 border-blue-600 shadow-xl">
+          <div className="lg:hidden bg-white border-t-2 border-sky-600 shadow-xl">
             {navLinks.map(link => (
               <Link
                 key={link.label}
@@ -120,8 +117,8 @@ export default function Header({ scrolled }: HeaderProps) {
                 onClick={() => setMobileOpen(false)}
                 className={`block px-6 py-4 text-sm font-bold uppercase tracking-wider border-b border-gray-100 transition-colors ${
                   location.pathname === link.href
-                    ? 'text-blue-600 bg-blue-50'
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
+                    ? 'text-sky-600 bg-sky-50'
+                    : 'text-gray-700 hover:text-sky-600 hover:bg-sky-50'
                 }`}
               >
                 {link.label}
@@ -131,7 +128,7 @@ export default function Header({ scrolled }: HeaderProps) {
               <Link
                 to="/contact"
                 onClick={() => setMobileOpen(false)}
-                className="block text-center bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors"
+                className="block text-center bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors"
               >
                 Get a Quote
               </Link>

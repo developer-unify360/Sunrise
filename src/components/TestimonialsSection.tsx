@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
   const t = testimonials[idx];
 
   return (
-    <section className="relative py-24 lg:py-32 overflow-hidden bg-blue-600">
+    <section className="relative py-24 lg:py-32 overflow-hidden bg-sky-600">
       {/* Background pattern */}
       <div
         className="absolute inset-0 opacity-10"
@@ -68,14 +68,14 @@ export default function TestimonialsSection() {
         {/* Testimonial card */}
         <div className="relative bg-white rounded-none shadow-2xl shadow-black/30 px-8 md:px-16 pt-16 pb-12">
           {/* Big quote icon */}
-          <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 bg-blue-600 border-4 border-white flex items-center justify-center shadow-lg">
+          <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 bg-sky-600 border-4 border-white flex items-center justify-center shadow-lg">
             <Quote size={22} className="text-white" />
           </div>
 
           {/* Stars */}
           <div className="flex justify-center gap-1 mb-6">
             {Array.from({ length: t.rating }).map((_, i) => (
-              <Star key={i} size={22} className="text-blue-600 fill-blue-600" />
+              <Star key={i} size={22} className="text-sky-600 fill-sky-600" />
             ))}
           </div>
 
@@ -87,7 +87,7 @@ export default function TestimonialsSection() {
           {/* Divider */}
           <div className="flex items-center gap-4 mb-8">
             <div className="flex-1 h-px bg-gray-100" />
-            <div className="w-2 h-2 bg-blue-600 rotate-45" />
+            <div className="w-2 h-2 bg-sky-600 rotate-45" />
             <div className="flex-1 h-px bg-gray-100" />
           </div>
 
@@ -97,15 +97,15 @@ export default function TestimonialsSection() {
               <img
                 src={t.image}
                 alt={t.name}
-                className="w-16 h-16 object-cover object-top border-4 border-blue-600"
+                className="w-16 h-16 object-cover object-top border-4 border-sky-600"
               />
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-blue-600 flex items-center justify-center">
+              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-sky-600 flex items-center justify-center">
                 <Star size={10} className="text-white fill-white" />
               </div>
             </div>
             <div className="text-left">
               <div className="text-gray-900 font-black text-lg uppercase tracking-wide">{t.name}</div>
-              <div className="text-blue-600 text-xs font-bold uppercase tracking-widest">{t.role}</div>
+              <div className="text-sky-600 text-xs font-bold uppercase tracking-widest">{t.role}</div>
               <div className="text-gray-400 text-xs mt-0.5">{t.company}</div>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function TestimonialsSection() {
             onClick={prev}
             className="w-12 h-12 bg-white/20 hover:bg-white border-2 border-white/40 hover:border-white flex items-center justify-center transition-all duration-200 group"
           >
-            <ChevronLeft size={20} className="text-white group-hover:text-blue-400 transition-colors" />
+            <ChevronLeft size={20} className="text-white group-hover:text-sky-400 transition-colors" />
           </button>
 
           <div className="flex items-center gap-2">
@@ -138,7 +138,7 @@ export default function TestimonialsSection() {
             onClick={next}
             className="w-12 h-12 bg-white/20 hover:bg-white border-2 border-white/40 hover:border-white flex items-center justify-center transition-all duration-200 group"
           >
-            <ChevronRight size={20} className="text-white group-hover:text-blue-400 transition-colors" />
+            <ChevronRight size={20} className="text-white group-hover:text-sky-400 transition-colors" />
           </button>
         </div>
 

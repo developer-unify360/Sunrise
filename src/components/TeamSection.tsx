@@ -37,12 +37,12 @@ export default function TeamSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 justify-center">
-            <div className="w-8 h-0.5 bg-blue-600" />
-            <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Our People</span>
-            <div className="w-8 h-0.5 bg-blue-600" />
+            <div className="w-8 h-0.5 bg-sky-600" />
+            <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">Our People</span>
+            <div className="w-8 h-0.5 bg-sky-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-            Meet The <span className="text-blue-600">Team</span>
+            Meet The <span className="text-sky-600">Team</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto text-sm leading-relaxed">
             Industry veterans and skilled professionals united by a passion for quality and on-time delivery.
@@ -51,7 +51,7 @@ export default function TeamSection() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {team.map(member => (
-            <div key={member.name} className="group relative overflow-hidden bg-white border border-gray-200 hover:border-blue-600 hover:shadow-xl transition-all duration-300">
+            <div key={member.name} className="group relative overflow-hidden bg-white border border-gray-200 hover:border-sky-600 hover:shadow-xl transition-all duration-300">
               <div className="relative h-72 overflow-hidden">
                 <img
                   src={member.image}
@@ -62,24 +62,23 @@ export default function TeamSection() {
 
                 <div className="absolute top-4 right-4 flex flex-col gap-2 opacity-0 group-hover:opacity-100 translate-x-4 group-hover:translate-x-0 transition-all duration-300">
                   {[Linkedin, Twitter, Mail].map((Icon, i) => (
-                    <a
+                    <span
                       key={i}
-                      href="#"
-                      className="w-9 h-9 bg-blue-600 hover:bg-blue-700 flex items-center justify-center transition-colors"
+                      className="w-9 h-9 bg-sky-600 flex items-center justify-center"
                     >
                       <Icon size={14} className="text-white" />
-                    </a>
+                    </span>
                   ))}
                 </div>
               </div>
 
               <div className="p-5">
-                <div className="text-blue-600 text-xs font-bold uppercase tracking-widest mb-1">{member.role}</div>
+                <div className="text-sky-600 text-xs font-bold uppercase tracking-widest mb-1">{member.role}</div>
                 <h3 className="text-gray-900 font-bold text-lg uppercase tracking-wide mb-2">{member.name}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{member.bio}</p>
               </div>
 
-              <div className="h-0.5 bg-gray-100 group-hover:bg-blue-600 transition-colors duration-300" />
+              <div className="h-0.5 bg-gray-100 group-hover:bg-sky-600 transition-colors duration-300" />
             </div>
           ))}
         </div>
