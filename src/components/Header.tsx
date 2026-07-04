@@ -83,11 +83,11 @@ export default function Header({ scrolled }: HeaderProps) {
                   className={`px-4 py-2 text-sm font-bold uppercase tracking-wider transition-all duration-200 relative group ${
                     isActive
                       ? 'text-blue-600'
-                      : 'text-gray-700 hover:text-orange-500'
+                      : 'text-gray-700 hover:text-blue-600'
                   }`}
                 >
                   {link.label}
-                  <span className={`absolute bottom-0 left-4 right-4 h-0.5 bg-orange-500 transition-transform duration-200 ${isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`} />
+                  <span className={`absolute bottom-0 left-4 right-4 h-0.5 bg-blue-600 transition-transform duration-200 ${isActive ? 'scale-x-100' : 'scale-x-0 group-hover:scale-x-100'}`} />
                 </Link>
               );
             })}
@@ -96,7 +96,7 @@ export default function Header({ scrolled }: HeaderProps) {
           {/* CTA */}
           <Link
             to="/contact"
-            className="hidden lg:flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-all duration-200 shadow-md hover:shadow-orange-200 hover:shadow-lg"
+            className="hidden lg:flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-all duration-200 shadow-md hover:shadow-blue-200 hover:shadow-lg"
           >
             Get a Quote
           </Link>
@@ -104,7 +104,7 @@ export default function Header({ scrolled }: HeaderProps) {
           {/* Mobile toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden text-gray-700 p-2 hover:text-orange-500 transition-colors"
+            className="lg:hidden text-gray-700 p-2 hover:text-blue-600 transition-colors"
           >
             {mobileOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -112,7 +112,7 @@ export default function Header({ scrolled }: HeaderProps) {
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="lg:hidden bg-white border-t-2 border-orange-500 shadow-xl">
+          <div className="lg:hidden bg-white border-t-2 border-blue-600 shadow-xl">
             {navLinks.map(link => (
               <Link
                 key={link.label}

@@ -22,7 +22,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url('${IMG_HERO}')` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-br from-orange-900/85 via-gray-900/80 to-orange-800/80" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/85 via-gray-900/80 to-blue-800/80" />
 
       {/* Subtle grid overlay */}
       <div
@@ -34,8 +34,8 @@ export default function Hero() {
       />
 
       {/* Orange side accents */}
-      <div className="absolute left-0 top-0 bottom-0 w-2 bg-orange-500" />
-      <div className="absolute right-0 top-0 bottom-0 w-2 bg-orange-500" />
+      <div className="absolute left-0 top-0 bottom-0 w-2 bg-blue-600" />
+      <div className="absolute right-0 top-0 bottom-0 w-2 bg-blue-600" />
 
       {/* Main content */}
       <div className="relative max-w-7xl mx-auto px-8 py-20 w-full">
@@ -45,9 +45,9 @@ export default function Hero() {
           <div className="flex flex-col items-start">
 
             {/* Badge */}
-            <div className="inline-flex items-center gap-3 mb-8 bg-orange-500/20 border border-orange-500/40 px-5 py-2 backdrop-blur-sm">
-              <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse" />
-              <span className="text-orange-400 text-xs font-bold uppercase tracking-[0.3em]">
+            <div className="inline-flex items-center gap-3 mb-8 bg-blue-600/20 border border-blue-600/40 px-5 py-2 backdrop-blur-sm">
+              <div className="w-2 h-2 bg-blue-600 rounded-full animate-pulse" />
+              <span className="text-blue-400 text-xs font-bold uppercase tracking-[0.3em]">
                 Commit to Quality, Deliver with Pride
               </span>
             </div>
@@ -69,14 +69,14 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-4 mb-14">
               <Link
                 to="/products"
-                className="group inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200 shadow-lg shadow-orange-500/30"
+                className="group inline-flex items-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200 shadow-lg shadow-blue-600/30"
               >
                 Our Products
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-3 border-2 border-white/50 hover:border-orange-500 hover:bg-orange-500 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200"
+                className="inline-flex items-center gap-3 border-2 border-white/50 hover:border-blue-600 hover:bg-blue-600 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200"
               >
                 Get a Quote
               </Link>
@@ -91,7 +91,7 @@ export default function Hero() {
                 { value: '98%',  label: 'Client Satisfaction' },
               ].map(stat => (
                 <div key={stat.label} className="text-center">
-                  <div className="text-3xl font-black text-orange-500 leading-none">{stat.value}</div>
+                  <div className="text-3xl font-black text-blue-600 leading-none">{stat.value}</div>
                   <div className="text-[10px] uppercase tracking-widest text-white/50 mt-1">{stat.label}</div>
                 </div>
               ))}
@@ -103,7 +103,7 @@ export default function Hero() {
             {showcase.map(({ image, label }) => (
               <div
                 key={label}
-                className="group relative overflow-hidden border-2 border-white/10 hover:border-orange-500 transition-all duration-300"
+                className="group relative overflow-hidden border-2 border-white/10 hover:border-blue-600 transition-all duration-300"
               >
                 <img
                   src={image}
@@ -125,7 +125,7 @@ export default function Hero() {
 
             {/* Decorative bottom tagline */}
             <div className="col-span-2 bg-blue-600/20 border border-blue-600/40 backdrop-blur-sm px-4 py-3 text-center">
-              <p className="text-orange-300 text-[11px] font-bold uppercase tracking-[0.3em]">
+              <p className="text-blue-300 text-[11px] font-bold uppercase tracking-[0.3em]">
                 500+ Products · 50+ Countries · Since 1987
               </p>
             </div>
@@ -137,7 +137,7 @@ export default function Hero() {
       {/* Scroll indicator */}
       <a
         href="#about"
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40 hover:text-orange-500 transition-colors animate-bounce"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/40 hover:text-blue-400 transition-colors animate-bounce"
       >
         <span className="text-[10px] uppercase tracking-widest">Scroll</span>
         <ChevronDown size={18} />

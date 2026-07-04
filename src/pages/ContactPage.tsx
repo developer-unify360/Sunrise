@@ -119,8 +119,8 @@ export default function ContactPage() {
             <div className="lg:col-span-3 bg-white p-8 lg:p-10 border border-gray-200 border-l-0">
               {sent ? (
                 <div className="h-full flex flex-col items-center justify-center text-center gap-4 py-12">
-                  <div className="w-16 h-16 bg-orange-50 border-2 border-orange-500 flex items-center justify-center">
-                    <CheckCircle size={32} className="text-orange-500" />
+                  <div className="w-16 h-16 bg-blue-50 border-2 border-blue-600 flex items-center justify-center">
+                    <CheckCircle size={32} className="text-blue-600" />
                   </div>
                   <h3 className="text-gray-900 font-black text-2xl uppercase">Message Sent!</h3>
                   <p className="text-gray-500 text-sm max-w-xs">
@@ -128,7 +128,7 @@ export default function ContactPage() {
                   </p>
                   <button
                     onClick={() => setSent(false)}
-                    className="mt-4 bg-orange-500 hover:bg-orange-600 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
+                    className="mt-4 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
                   >
                     Send Another Message
                   </button>
@@ -162,7 +162,7 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Product Required</label>
                       <select name="service" value={form.service} onChange={handleChange}
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-orange-500 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none">
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none">
                         <option value="">Select product...</option>
                         <option>Flanges</option>
                         <option>Buttweld Fittings</option>
@@ -187,7 +187,7 @@ export default function ContactPage() {
                     <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Requirements / Message *</label>
                     <textarea name="message" value={form.message} onChange={handleChange} required rows={5}
                       placeholder="Please describe the product, grade, size, quantity and delivery timeline..."
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-orange-500 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400" />
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400" />
                   </div>
 
                   <button type="submit"

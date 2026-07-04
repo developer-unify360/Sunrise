@@ -24,7 +24,7 @@ export default function ContactSection() {
             <div className="w-8 h-0.5 bg-blue-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-            Request a <span className="text-orange-500">Quote</span>
+            Request a <span className="text-blue-600">Quote</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto text-sm leading-relaxed">
             Tell us your product requirements and our team will respond within 24 hours with pricing and availability.
@@ -33,7 +33,7 @@ export default function ContactSection() {
 
         <div className="grid lg:grid-cols-5 gap-0 shadow-2xl shadow-gray-200">
           {/* Contact Info Panel */}
-          <div className="lg:col-span-2 bg-orange-500 p-8 lg:p-10 flex flex-col justify-between">
+          <div className="lg:col-span-2 bg-blue-600 p-8 lg:p-10 flex flex-col justify-between">
             <div>
               <h3 className="text-white font-black text-2xl uppercase tracking-wide mb-2">Contact Info</h3>
               <div className="w-12 h-0.5 bg-white/40 mb-8" />
@@ -81,7 +81,7 @@ export default function ContactSection() {
                   { label: 'IG', href: 'https://www.instagram.com/sunriseenterprise' },
                 ].map(s => (
                   <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
-                    className="w-10 h-10 bg-white/20 hover:bg-white hover:text-orange-500 flex items-center justify-center text-white text-xs font-black transition-all duration-200">
+                    className="w-10 h-10 bg-white/20 hover:bg-white hover:text-blue-600 flex items-center justify-center text-white text-xs font-black transition-all duration-200">
                     {s.label}
                   </a>
                 ))}
@@ -93,8 +93,8 @@ export default function ContactSection() {
           <div className="lg:col-span-3 bg-white p-8 lg:p-10 border border-gray-200 border-l-0">
             {sent ? (
               <div className="h-full flex flex-col items-center justify-center text-center gap-4 py-12">
-                <div className="w-16 h-16 bg-orange-50 border-2 border-orange-500 flex items-center justify-center">
-                  <CheckCircle size={32} className="text-orange-500" />
+                <div className="w-16 h-16 bg-blue-50 border-2 border-blue-600 flex items-center justify-center">
+                  <CheckCircle size={32} className="text-blue-600" />
                 </div>
                 <h3 className="text-gray-900 font-black text-2xl uppercase">Message Sent!</h3>
                 <p className="text-gray-500 text-sm max-w-xs">
@@ -102,7 +102,7 @@ export default function ContactSection() {
                 </p>
                 <button
                   onClick={() => setSent(false)}
-                  className="mt-4 bg-orange-500 hover:bg-orange-600 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
+                  className="mt-4 bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
                 >
                   Send Another Message
                 </button>
@@ -152,7 +152,7 @@ export default function ContactSection() {
                       name="product"
                       value={form.product}
                       onChange={handleChange}
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-orange-500 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none"
                     >
                       <option value="">Select product...</option>
                       <option>Flanges</option>
@@ -180,7 +180,7 @@ export default function ContactSection() {
                     required
                     rows={5}
                     placeholder="Please describe the product, grade, size, quantity and delivery timeline..."
-                    className="w-full bg-gray-50 border-2 border-gray-200 focus:border-orange-500 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400"
+                    className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400"
                   />
                 </div>
 

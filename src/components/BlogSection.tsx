@@ -37,14 +37,14 @@ export default function BlogSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
             <div className="inline-flex items-center gap-2 mb-4">
-              <div className="w-8 h-0.5 bg-orange-500" />
-              <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">News & Insights</span>
+              <div className="w-8 h-0.5 bg-blue-600" />
+              <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">News & Insights</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight">
-              Latest from <span className="text-orange-500">The Blog</span>
+              Latest from <span className="text-blue-600">The Blog</span>
             </h2>
           </div>
-          <a href="#" className="hidden md:inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-neutral-400 hover:text-orange-500 transition-colors">
+          <a href="#" className="hidden md:inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-neutral-400 hover:text-blue-600 transition-colors">
             All Articles <ArrowRight size={14} />
           </a>
         </div>
@@ -58,20 +58,20 @@ export default function BlogSection() {
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/30 to-transparent" />
-              <div className="absolute top-4 left-4 bg-orange-500 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
+              <div className="absolute top-4 left-4 bg-blue-600 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
                 {posts[0].category}
               </div>
             </div>
             <div className="p-6">
               <div className="flex items-center gap-4 text-xs text-neutral-500 mb-3">
-                <span className="flex items-center gap-1"><Calendar size={11} className="text-orange-500" />{posts[0].date}</span>
-                <span className="flex items-center gap-1"><User size={11} className="text-orange-500" />{posts[0].author}</span>
+                <span className="flex items-center gap-1"><Calendar size={11} className="text-blue-600" />{posts[0].date}</span>
+                <span className="flex items-center gap-1"><User size={11} className="text-blue-600" />{posts[0].author}</span>
               </div>
-              <h3 className="text-white font-bold text-xl uppercase tracking-wide leading-tight mb-3 group-hover:text-orange-500 transition-colors">
+              <h3 className="text-white font-bold text-xl uppercase tracking-wide leading-tight mb-3 group-hover:text-blue-300 transition-colors">
                 {posts[0].title}
               </h3>
               <p className="text-neutral-400 text-sm leading-relaxed mb-4">{posts[0].excerpt}</p>
-              <a href="#" className="inline-flex items-center gap-2 text-orange-500 text-xs font-bold uppercase tracking-widest hover:gap-3 transition-all">
+              <a href="#" className="inline-flex items-center gap-2 text-blue-600 text-xs font-bold uppercase tracking-widest hover:gap-3 transition-all">
                 Read Article <ArrowRight size={12} />
               </a>
             </div>
@@ -89,14 +89,14 @@ export default function BlogSection() {
                 </div>
                 <div className="p-5 flex-1">
                   <div className="flex items-center gap-2 mb-2">
-                    <Tag size={9} className="text-orange-500" />
-                    <span className="text-orange-500 text-[10px] font-bold uppercase tracking-widest">{post.category}</span>
+                    <Tag size={9} className="text-blue-600" />
+                    <span className="text-blue-600 text-[10px] font-bold uppercase tracking-widest">{post.category}</span>
                   </div>
-                  <h3 className="text-white font-bold text-sm uppercase tracking-wide leading-tight mb-2 group-hover:text-orange-500 transition-colors">
+                  <h3 className="text-white font-bold text-sm uppercase tracking-wide leading-tight mb-2 group-hover:text-blue-400 transition-colors">
                     {post.title}
                   </h3>
                   <div className="flex items-center gap-3 text-[10px] text-neutral-500">
-                    <span className="flex items-center gap-1"><Calendar size={9} className="text-orange-500" />{post.date}</span>
+                    <span className="flex items-center gap-1"><Calendar size={9} className="text-blue-600" />{post.date}</span>
                   </div>
                 </div>
               </div>

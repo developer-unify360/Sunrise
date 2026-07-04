@@ -527,7 +527,7 @@ function ProductCard({ product }: { product: Product }) {
       <div className="p-4 flex-1">
         {visibleSubs.map((sub) => (
           <div key={sub.title} className="mb-3 last:mb-0">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-orange-500 mb-1.5">
+            <p className="text-[10px] font-bold uppercase tracking-widest text-blue-600 mb-1.5">
               {sub.title}
             </p>
             <div className="flex flex-wrap gap-1">
@@ -546,7 +546,7 @@ function ProductCard({ product }: { product: Product }) {
         {product.subcategories.length > 2 && (
           <button
             onClick={() => setExpanded(!expanded)}
-            className="mt-2 flex items-center gap-1 text-orange-500 text-xs font-bold hover:text-orange-600 transition-colors"
+            className="mt-2 flex items-center gap-1 text-blue-600 text-xs font-bold hover:text-blue-700 transition-colors"
           >
             {expanded ? (
               <><ChevronUp size={14} /> Show Less</>
@@ -601,8 +601,8 @@ export default function ProductsPage() {
                 onClick={() => setActive(cat)}
                 className={`px-4 py-2 text-xs font-bold uppercase tracking-widest transition-all duration-200 ${
                   active === cat
-                    ? 'bg-orange-500 text-white shadow-md shadow-orange-200'
-                    : 'bg-white border-2 border-gray-200 text-gray-600 hover:border-orange-500 hover:text-orange-500'
+                    ? 'bg-blue-600 text-white shadow-md shadow-blue-200'
+                    : 'bg-white border-2 border-gray-200 text-gray-600 hover:border-blue-600 hover:text-blue-600'
                 }`}
               >
                 {cat}
@@ -615,7 +615,7 @@ export default function ProductsPage() {
 
           {/* Active category description */}
           {active !== 'All' && CATEGORY_DESC[active] && (
-            <div className="mb-8 bg-white border-l-4 border-orange-500 px-5 py-3">
+            <div className="mb-8 bg-white border-l-4 border-blue-600 px-5 py-3">
               <p className="text-gray-600 text-sm leading-relaxed">{CATEGORY_DESC[active]}</p>
             </div>
           )}

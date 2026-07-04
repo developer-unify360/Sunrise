@@ -52,11 +52,11 @@ export default function ServicesSection() {
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
             <div className="inline-flex items-center gap-2 mb-4">
-              <div className="w-8 h-0.5 bg-orange-500" />
-              <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">What We Offer</span>
+              <div className="w-8 h-0.5 bg-blue-600" />
+              <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">What We Offer</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-              Our Core <span className="text-orange-500">Services</span>
+              Our Core <span className="text-blue-600">Services</span>
             </h2>
           </div>
           <p className="text-gray-500 max-w-sm text-sm leading-relaxed">
@@ -68,7 +68,7 @@ export default function ServicesSection() {
           {services.map((svc) => (
             <div
               key={svc.title}
-              className="group bg-white border border-gray-200 hover:border-orange-500 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
+              className="group bg-white border border-gray-200 hover:border-blue-600 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300"
             >
               <div className="relative h-52 overflow-hidden">
                 <img
@@ -77,19 +77,19 @@ export default function ServicesSection() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                <div className="absolute bottom-4 left-4 w-12 h-12 bg-orange-500 flex items-center justify-center">
+                <div className="absolute bottom-4 left-4 w-12 h-12 bg-blue-600 flex items-center justify-center">
                   <svc.icon size={22} className="text-white" />
                 </div>
               </div>
 
               <div className="p-6">
-                <h3 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-3 group-hover:text-orange-500 transition-colors">
+                <h3 className="text-lg font-bold text-gray-900 uppercase tracking-wide mb-3 group-hover:text-blue-600 transition-colors">
                   {svc.title}
                 </h3>
                 <p className="text-gray-500 text-sm leading-relaxed mb-4">{svc.desc}</p>
                 <a
                   href="#contact"
-                  className="inline-flex items-center gap-2 text-orange-500 text-xs font-bold uppercase tracking-widest hover:gap-3 transition-all"
+                  className="inline-flex items-center gap-2 text-blue-600 text-xs font-bold uppercase tracking-widest hover:gap-3 transition-all"
                 >
                   Learn More <ArrowRight size={13} />
                 </a>

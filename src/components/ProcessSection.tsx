@@ -45,12 +45,12 @@ export default function ProcessSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 justify-center">
-            <div className="w-8 h-0.5 bg-orange-500" />
-            <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">How We Work</span>
-            <div className="w-8 h-0.5 bg-orange-500" />
+            <div className="w-8 h-0.5 bg-blue-600" />
+            <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">How We Work</span>
+            <div className="w-8 h-0.5 bg-blue-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-            Our <span className="text-orange-500">Process</span>
+            Our <span className="text-blue-600">Process</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto text-sm leading-relaxed">
             A streamlined six-step process ensures every order is processed accurately and delivered on time.
@@ -61,16 +61,16 @@ export default function ProcessSection() {
           {steps.map((step) => (
             <div
               key={step.num}
-              className="group relative bg-white border border-gray-200 hover:border-orange-500 p-8 transition-all duration-300 hover:shadow-xl overflow-hidden"
+              className="group relative bg-white border border-gray-200 hover:border-blue-600 p-8 transition-all duration-300 hover:shadow-xl overflow-hidden"
             >
-              <div className="absolute top-4 right-4 text-7xl font-black text-gray-100 leading-none select-none group-hover:text-orange-100 transition-colors">
+              <div className="absolute top-4 right-4 text-7xl font-black text-gray-100 leading-none select-none group-hover:text-blue-100 transition-colors">
                 {step.num}
               </div>
               <div className="relative z-10">
-                <div className="w-14 h-14 border-2 border-orange-500 flex items-center justify-center mb-5 group-hover:bg-orange-500 transition-colors duration-300">
-                  <step.icon size={24} className="text-orange-500 group-hover:text-white transition-colors" />
+                <div className="w-14 h-14 border-2 border-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 transition-colors duration-300">
+                  <step.icon size={24} className="text-blue-600 group-hover:text-white transition-colors" />
                 </div>
-                <div className="text-orange-500 text-xs font-black uppercase tracking-widest mb-2">Step {step.num}</div>
+                <div className="text-blue-600 text-xs font-black uppercase tracking-widest mb-2">Step {step.num}</div>
                 <h3 className="text-gray-900 font-bold text-lg uppercase tracking-wide mb-3 leading-tight">
                   {step.title}
                 </h3>

@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <Link
             to="/contact"
-            className="shrink-0 inline-flex items-center gap-2 bg-white text-orange-500 hover:bg-orange-50 font-black uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg"
+            className="shrink-0 inline-flex items-center gap-2 bg-white text-blue-600 hover:bg-blue-50 font-black uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg"
           >
             Request a Quote <ArrowRight size={16} />
           </Link>
@@ -95,7 +95,7 @@ export default function Footer() {
           {/* Link columns */}
           {Object.entries(footerLinks).map(([title, links]) => (
             <div key={title}>
-              <h4 className="text-gray-900 font-bold uppercase tracking-widest text-xs mb-5 pb-3 border-b-2 border-orange-500">
+              <h4 className="text-gray-900 font-bold uppercase tracking-widest text-xs mb-5 pb-3 border-b-2 border-blue-600">
                 {title}
               </h4>
               <ul className="space-y-2.5">
@@ -103,9 +103,9 @@ export default function Footer() {
                   <li key={link.label}>
                     <Link
                       to={link.href}
-                      className="text-gray-500 text-sm hover:text-orange-500 transition-colors flex items-center gap-1.5 group"
+                      className="text-gray-500 text-sm hover:text-blue-600 transition-colors flex items-center gap-1.5 group"
                     >
-                      <span className="w-0 h-0.5 bg-orange-500 group-hover:w-3 transition-all duration-200" />
+                      <span className="w-0 h-0.5 bg-blue-600 group-hover:w-3 transition-all duration-200" />
                       {link.label}
                     </Link>
                   </li>

@@ -75,7 +75,7 @@ export default function CertificationsSection() {
             {inspectors.map(({ name, logo }) => (
               <div
                 key={name}
-                className="group flex flex-col items-center gap-2 bg-gray-50 border border-gray-200 hover:border-orange-400 hover:bg-orange-50 p-3 transition-all duration-200 cursor-default"
+                className="group flex flex-col items-center gap-2 bg-gray-50 border border-gray-200 hover:border-blue-400 hover:bg-blue-50 p-3 transition-all duration-200 cursor-default"
               >
                 <div className="w-full h-14 flex items-center justify-center">
                   <img
@@ -84,7 +84,7 @@ export default function CertificationsSection() {
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>
-                <span className="text-[10px] font-bold uppercase tracking-wide text-gray-500 group-hover:text-orange-600 text-center leading-tight">
+                <span className="text-[10px] font-bold uppercase tracking-wide text-gray-500 group-hover:text-blue-600 text-center leading-tight">
                   {name}
                 </span>
               </div>
@@ -119,7 +119,7 @@ export default function CertificationsSection() {
             {standards.map(({ name, logo }) => (
               <div
                 key={name}
-                className="group flex flex-col items-center gap-2 bg-white border border-gray-200 hover:border-orange-400 hover:shadow-md p-4 transition-all duration-200 cursor-default"
+                className="group flex flex-col items-center gap-2 bg-white border border-gray-200 hover:border-blue-400 hover:shadow-md p-4 transition-all duration-200 cursor-default"
               >
                 <div className="w-full h-14 flex items-center justify-center">
                   <img

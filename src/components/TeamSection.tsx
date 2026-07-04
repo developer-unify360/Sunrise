@@ -42,7 +42,7 @@ export default function TeamSection() {
             <div className="w-8 h-0.5 bg-blue-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-            Meet The <span className="text-orange-500">Team</span>
+            Meet The <span className="text-blue-600">Team</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto text-sm leading-relaxed">
             Industry veterans and skilled professionals united by a passion for quality and on-time delivery.
@@ -51,7 +51,7 @@ export default function TeamSection() {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {team.map(member => (
-            <div key={member.name} className="group relative overflow-hidden bg-white border border-gray-200 hover:border-orange-500 hover:shadow-xl transition-all duration-300">
+            <div key={member.name} className="group relative overflow-hidden bg-white border border-gray-200 hover:border-blue-600 hover:shadow-xl transition-all duration-300">
               <div className="relative h-72 overflow-hidden">
                 <img
                   src={member.image}
@@ -65,7 +65,7 @@ export default function TeamSection() {
                     <a
                       key={i}
                       href="#"
-                      className="w-9 h-9 bg-orange-500 hover:bg-orange-600 flex items-center justify-center transition-colors"
+                      className="w-9 h-9 bg-blue-600 hover:bg-blue-700 flex items-center justify-center transition-colors"
                     >
                       <Icon size={14} className="text-white" />
                     </a>
@@ -74,12 +74,12 @@ export default function TeamSection() {
               </div>
 
               <div className="p-5">
-                <div className="text-orange-500 text-xs font-bold uppercase tracking-widest mb-1">{member.role}</div>
+                <div className="text-blue-600 text-xs font-bold uppercase tracking-widest mb-1">{member.role}</div>
                 <h3 className="text-gray-900 font-bold text-lg uppercase tracking-wide mb-2">{member.name}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{member.bio}</p>
               </div>
 
-              <div className="h-0.5 bg-gray-100 group-hover:bg-orange-500 transition-colors duration-300" />
+              <div className="h-0.5 bg-gray-100 group-hover:bg-blue-600 transition-colors duration-300" />
             </div>
           ))}
         </div>

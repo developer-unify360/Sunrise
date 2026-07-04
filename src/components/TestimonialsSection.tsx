@@ -75,7 +75,7 @@ export default function TestimonialsSection() {
           {/* Stars */}
           <div className="flex justify-center gap-1 mb-6">
             {Array.from({ length: t.rating }).map((_, i) => (
-              <Star key={i} size={22} className="text-orange-500 fill-orange-500" />
+              <Star key={i} size={22} className="text-blue-600 fill-blue-600" />
             ))}
           </div>
 
@@ -87,7 +87,7 @@ export default function TestimonialsSection() {
           {/* Divider */}
           <div className="flex items-center gap-4 mb-8">
             <div className="flex-1 h-px bg-gray-100" />
-            <div className="w-2 h-2 bg-orange-500 rotate-45" />
+            <div className="w-2 h-2 bg-blue-600 rotate-45" />
             <div className="flex-1 h-px bg-gray-100" />
           </div>
 
@@ -97,15 +97,15 @@ export default function TestimonialsSection() {
               <img
                 src={t.image}
                 alt={t.name}
-                className="w-16 h-16 object-cover object-top border-4 border-orange-500"
+                className="w-16 h-16 object-cover object-top border-4 border-blue-600"
               />
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-orange-500 flex items-center justify-center">
+              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-blue-600 flex items-center justify-center">
                 <Star size={10} className="text-white fill-white" />
               </div>
             </div>
             <div className="text-left">
               <div className="text-gray-900 font-black text-lg uppercase tracking-wide">{t.name}</div>
-              <div className="text-orange-500 text-xs font-bold uppercase tracking-widest">{t.role}</div>
+              <div className="text-blue-600 text-xs font-bold uppercase tracking-widest">{t.role}</div>
               <div className="text-gray-400 text-xs mt-0.5">{t.company}</div>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function TestimonialsSection() {
             onClick={prev}
             className="w-12 h-12 bg-white/20 hover:bg-white border-2 border-white/40 hover:border-white flex items-center justify-center transition-all duration-200 group"
           >
-            <ChevronLeft size={20} className="text-white group-hover:text-orange-500 transition-colors" />
+            <ChevronLeft size={20} className="text-white group-hover:text-blue-400 transition-colors" />
           </button>
 
           <div className="flex items-center gap-2">
@@ -138,7 +138,7 @@ export default function TestimonialsSection() {
             onClick={next}
             className="w-12 h-12 bg-white/20 hover:bg-white border-2 border-white/40 hover:border-white flex items-center justify-center transition-all duration-200 group"
           >
-            <ChevronRight size={20} className="text-white group-hover:text-orange-500 transition-colors" />
+            <ChevronRight size={20} className="text-white group-hover:text-blue-400 transition-colors" />
           </button>
         </div>
 
