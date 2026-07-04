@@ -14,7 +14,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: 'Anita Sharma',
+    name: 'Vikram Nair',
     company: 'Pharma Tech Industries',
     role: 'VP Operations',
     image: IMG_T2,
@@ -22,7 +22,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: 'Suresh Patel',
+    name: 'Priya Deshmukh',
     company: 'Gulf Export Trading LLC',
     role: 'Procurement Director',
     image: IMG_T3,

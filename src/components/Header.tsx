@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Phone, Mail, Linkedin, Facebook, Instagram } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../assets/Images/Logo.png';
+import Logo from '../assets/Images/LOGO PNG.png';
 
 interface HeaderProps {
   scrolled: boolean;
@@ -68,7 +68,7 @@ export default function Header({ scrolled }: HeaderProps) {
             <img
               src={Logo}
               alt="Sunrise Enterprise"
-              className="h-14 w-auto object-contain"
+              className="h-16 w-auto object-contain"
             />
           </Link>
 

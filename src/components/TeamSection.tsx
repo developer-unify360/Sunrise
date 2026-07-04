@@ -1,32 +1,32 @@
 import { Linkedin, Twitter, Mail } from 'lucide-react';
 import IMG_TEAM_ROBERT from '../assets/Images/pexels-photo-3760263.jpeg';
-import IMG_TEAM_MARIA from '../assets/Images/pexels-photo-3778603.jpeg';
-import IMG_TEAM_JAMES from '../assets/Images/pexels-photo-3756679.jpeg';
-import IMG_TEAM_SANDRA from '../assets/Images/pexels-photo-3785079.jpeg';
+import IMG_TEAM_ARJUN from '../assets/Images/pexels-photo-3778603.jpeg';
+import IMG_TEAM_MEERA from '../assets/Images/pexels-photo-3756679.jpeg';
+import IMG_TEAM_SANJAY from '../assets/Images/pexels-photo-3785079.jpeg';
 
 const team = [
   {
-    name: 'Sunrise Management',
+    name: 'Robert D’Souza',
     role: 'Director',
     image: IMG_TEAM_ROBERT,
     bio: '35+ years of experience in stainless steel pipe & fitting industry across India and global markets.',
   },
   {
-    name: 'Technical Team',
+    name: 'Arjun Mehta',
     role: 'Chief Engineer',
-    image: IMG_TEAM_MARIA,
+    image: IMG_TEAM_ARJUN,
     bio: 'Expert metallurgical engineers ensuring every product meets international grade specifications.',
   },
   {
-    name: 'Quality Control',
+    name: 'Meera Iyer',
     role: 'QA Head',
-    image: IMG_TEAM_JAMES,
+    image: IMG_TEAM_MEERA,
     bio: 'ISO-trained QA professionals — rigorous testing on every batch before dispatch.',
   },
   {
-    name: 'Sales & Export',
+    name: 'Sanjay Rao',
     role: 'Export Manager',
-    image: IMG_TEAM_SANDRA,
+    image: IMG_TEAM_SANJAY,
     bio: 'Handling global exports to 50+ countries with seamless documentation and logistics.',
   },
 ];

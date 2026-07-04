@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Logo from '../assets/Images/Logo.png';
+import Logo from '../assets/Images/LOGO PNG.png';
 
 const footerLinks: Record<string, { label: string; href: string }[]> = {
   Company: [
