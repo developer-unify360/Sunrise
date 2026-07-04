@@ -144,12 +144,12 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Full Name *</label>
                       <input name="name" value={form.name} onChange={handleChange} required placeholder="Your Name"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-orange-500 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Email Address *</label>
                       <input name="email" type="email" value={form.email} onChange={handleChange} required placeholder="you@company.com"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-orange-500 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                   </div>
 
@@ -157,7 +157,7 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Phone Number</label>
                       <input name="phone" value={form.phone} onChange={handleChange} placeholder="+91 98765 43210"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-orange-500 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-blue-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Product Required</label>
@@ -191,7 +191,7 @@ export default function ContactPage() {
                   </div>
 
                   <button type="submit"
-                    className="w-full bg-orange-500 hover:bg-orange-600 text-white font-black uppercase tracking-widest text-sm py-4 flex items-center justify-center gap-3 transition-colors shadow-lg shadow-orange-100">
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-black uppercase tracking-widest text-sm py-4 flex items-center justify-center gap-3 transition-colors shadow-lg shadow-blue-100">
                     <Send size={16} />
                     Send Your Request
                   </button>

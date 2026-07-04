@@ -33,7 +33,7 @@ export default function Hero() {
         }}
       />
 
-      {/* Orange side accents */}
+      {/* Blue side accents */}
       <div className="absolute left-0 top-0 bottom-0 w-2 bg-blue-600" />
       <div className="absolute right-0 top-0 bottom-0 w-2 bg-blue-600" />
 

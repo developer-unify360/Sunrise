@@ -162,7 +162,7 @@ export default function ProductsSection() {
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                {/* Orange bottom accent bar */}
+                {/* Blue bottom accent bar */}
                 <div className="absolute bottom-0 left-0 right-0 h-1 bg-blue-600" />
                 {/* Product name as image heading */}
                 <div className="absolute bottom-4 left-4 right-4">

@@ -27,26 +27,26 @@ export default function Header({ scrolled }: HeaderProps) {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 font-semibold">
               <Phone size={11} />
-              +91 0265 - 2632006
+              +91 97227 75181
             </span>
             <span className="flex items-center gap-1.5 font-semibold">
               <Mail size={11} />
-              sunrent20@gmail.com
+              sunernt20@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-6">
             <span className="font-semibold">Mon–Sat: 9:00 AM – 6:00 PM</span>
             <div className="flex items-center gap-3 pl-6 border-l border-white/30">
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-                className="text-white hover:text-orange-100 transition-colors">
+                className="text-white hover:text-blue-100 transition-colors">
                 <Linkedin size={13} />
               </a>
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
-                className="text-white hover:text-orange-100 transition-colors">
+                className="text-white hover:text-blue-100 transition-colors">
                 <Facebook size={13} />
               </a>
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
-                className="text-white hover:text-orange-100 transition-colors">
+                className="text-white hover:text-blue-100 transition-colors">
                 <Instagram size={13} />
               </a>
             </div>
@@ -120,8 +120,8 @@ export default function Header({ scrolled }: HeaderProps) {
                 onClick={() => setMobileOpen(false)}
                 className={`block px-6 py-4 text-sm font-bold uppercase tracking-wider border-b border-gray-100 transition-colors ${
                   location.pathname === link.href
-                    ? 'text-orange-500 bg-orange-50'
-                    : 'text-gray-700 hover:text-orange-500 hover:bg-orange-50'
+                    ? 'text-blue-600 bg-blue-50'
+                    : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
                 }`}
               >
                 {link.label}
@@ -131,7 +131,7 @@ export default function Header({ scrolled }: HeaderProps) {
               <Link
                 to="/contact"
                 onClick={() => setMobileOpen(false)}
-                className="block text-center bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors"
+                className="block text-center bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors"
               >
                 Get a Quote
               </Link>

@@ -499,7 +499,7 @@ function ProductCard({ product }: { product: Product }) {
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-        {/* Orange bottom accent */}
+        {/* Blue bottom accent */}
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-blue-600" />
         {/* Product name as image heading */}
         <div className="absolute bottom-4 left-4 right-4">
@@ -580,14 +580,14 @@ export default function ProductsPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           {/* Intro banner */}
-          <div className="bg-orange-500 text-white p-6 mb-12 flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div className="bg-blue-600 text-white p-6 mb-12 flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
               <p className="font-black text-xl uppercase">Our Products Speak The Global Language of Quality</p>
-              <p className="text-orange-100 text-sm mt-1">Precision Led Performance Can Be Expected Every Time, All The Time.</p>
+              <p className="text-blue-100 text-sm mt-1">Precision Led Performance Can Be Expected Every Time, All The Time.</p>
             </div>
             <Link
               to="/contact"
-              className="flex-shrink-0 bg-white text-orange-500 hover:bg-orange-50 font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors flex items-center gap-2"
+              className="flex-shrink-0 bg-white text-blue-600 hover:bg-blue-50 font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors flex items-center gap-2"
             >
               Request a Quote <ArrowRight size={14} />
             </Link>
@@ -642,7 +642,7 @@ export default function ProductsPage() {
               </Link>
               <a
                 href="tel:+919723269427"
-                className="inline-flex items-center gap-2 border-2 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-all duration-200"
+                className="inline-flex items-center gap-2 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-all duration-200"
               >
                 Call: +91 97232 69427
               </a>

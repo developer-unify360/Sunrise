@@ -73,9 +73,9 @@ export default function Footer() {
             </p>
             <div className="space-y-3 text-sm">
               {[
-                { icon: Phone, text: '+91 0265 - 2632006', href: 'tel:+91-0265-2632006' },
-                { icon: Mail, text: 'sunrent20@gmail.com', href: 'mailto:sunrent20@gmail.com' },
-                { icon: MapPin, text: '749/7/4, G.I.D.C. Makarpura, Vadodara - 390 010, Gujarat', href: 'https://maps.google.com' },
+                { icon: Phone, text: '+91 97227 75181', href: 'tel:+919722775181' },
+                { icon: Mail, text: 'sunernt20@gmail.com', href: 'mailto:sunernt20@gmail.com' },
+                { icon: MapPin, text: 'C-1/389, Shop No. 1-2, Shree Pramukh Swami Industrial Estate, GIDC, Makarpura, Vadodara - 390 010', href: 'https://maps.google.com' },
               ].map(item => (
                 <div key={item.text} className="flex items-start gap-2 text-gray-500">
                   <item.icon size={14} className="text-blue-600 shrink-0 mt-0.5" />
@@ -119,7 +119,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-200 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">
-          <span>© {new Date().getFullYear()} Sunrise Enterprise. All rights reserved. | C-1/289, Shop No. 1-2, Makarpura, Vadodara - 390 010.</span>
+          <span>© {new Date().getFullYear()} Sunrise Enterprise. All rights reserved. | C-1/389, Shop No. 1-2, Shree Pramukh Swami Industrial Estate, GIDC, Makarpura, Vadodara - 390 010.</span>
           <div className="flex items-center gap-5">
             <span className="text-gray-400">
               Designed &amp; Developed by{' '}

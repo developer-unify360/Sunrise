@@ -56,10 +56,10 @@ export default function CertificationsSection() {
 
           {/* Header */}
           <div className="flex items-center gap-3 mb-10">
-            <div className="w-1 h-10 bg-orange-500 flex-shrink-0" />
+            <div className="w-1 h-10 bg-blue-600 flex-shrink-0" />
             <div>
               <div className="flex items-center gap-2 mb-1">
-                <ShieldCheck size={20} className="text-orange-500" />
+                <ShieldCheck size={20} className="text-blue-600" />
                 <h2 className="text-xl font-black uppercase text-gray-900 tracking-wide">
                   Third Party Inspection
                 </h2>
@@ -100,10 +100,10 @@ export default function CertificationsSection() {
 
           {/* Header */}
           <div className="flex items-center gap-3 mb-10">
-            <div className="w-1 h-10 bg-orange-500 flex-shrink-0" />
+            <div className="w-1 h-10 bg-blue-600 flex-shrink-0" />
             <div>
               <div className="flex items-center gap-2 mb-1">
-                <BadgeCheck size={20} className="text-orange-500" />
+                <BadgeCheck size={20} className="text-blue-600" />
                 <h2 className="text-xl font-black uppercase text-gray-900 tracking-wide">
                   Standard Followers
                 </h2>
@@ -128,14 +128,14 @@ export default function CertificationsSection() {
                     className="max-h-full max-w-full object-contain"
                   />
                 </div>
-                <span className="text-[10px] font-black uppercase tracking-widest text-orange-500 text-center">
+                <span className="text-[10px] font-black uppercase tracking-widest text-blue-600 text-center">
                   {name}
                 </span>
               </div>
             ))}
           </div>
 
-          <p className="mt-8 text-gray-400 text-xs leading-relaxed border-l-2 border-orange-500 pl-3 max-w-2xl">
+          <p className="mt-8 text-gray-400 text-xs leading-relaxed border-l-2 border-blue-600 pl-3 max-w-2xl">
             Includes ASTM, ASME, DIN, JIS, EN, ANSI, BS, API, NACE, IS, 3A Sanitary &amp; SMS compliance
             across all our product lines.
           </p>
