@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
   const t = testimonials[idx];
 
   return (
-    <section className="relative py-24 lg:py-32 overflow-hidden bg-orange-500">
+    <section className="relative py-24 lg:py-32 overflow-hidden bg-blue-600">
       {/* Background pattern */}
       <div
         className="absolute inset-0 opacity-10"
@@ -68,7 +68,7 @@ export default function TestimonialsSection() {
         {/* Testimonial card */}
         <div className="relative bg-white rounded-none shadow-2xl shadow-black/30 px-8 md:px-16 pt-16 pb-12">
           {/* Big quote icon */}
-          <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 bg-orange-500 border-4 border-white flex items-center justify-center shadow-lg">
+          <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 bg-blue-600 border-4 border-white flex items-center justify-center shadow-lg">
             <Quote size={22} className="text-white" />
           </div>
 

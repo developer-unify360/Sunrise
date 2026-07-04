@@ -29,10 +29,10 @@ const footerLinks: Record<string, { label: string; href: string }[]> = {
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t-4 border-orange-500">
+    <footer className="bg-white border-t-4 border-blue-600">
 
       {/* CTA Banner */}
-      <div className="bg-orange-500 py-10">
+      <div className="bg-blue-600 py-10">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-white font-black text-2xl uppercase tracking-wide">
@@ -78,12 +78,12 @@ export default function Footer() {
                 { icon: MapPin, text: '749/7/4, G.I.D.C. Makarpura, Vadodara - 390 010, Gujarat', href: 'https://maps.google.com' },
               ].map(item => (
                 <div key={item.text} className="flex items-start gap-2 text-gray-500">
-                  <item.icon size={14} className="text-orange-500 shrink-0 mt-0.5" />
+                  <item.icon size={14} className="text-blue-600 shrink-0 mt-0.5" />
                   <a
                     href={item.href}
                     target={item.href.startsWith('http') ? '_blank' : undefined}
                     rel={item.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                    className="hover:text-orange-500 transition-colors leading-tight"
+                    className="hover:text-blue-600 transition-colors leading-tight"
                   >
                     {item.text}
                   </a>

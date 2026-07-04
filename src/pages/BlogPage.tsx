@@ -96,7 +96,7 @@ export default function BlogPage() {
             </div>
             <div className="p-8 lg:p-10 flex flex-col justify-center">
               <div className="flex items-center gap-2 mb-3">
-                <Tag size={10} className="text-orange-500" />
+                <Tag size={10} className="text-blue-600" />
                 <span className="text-orange-500 text-[10px] font-bold uppercase tracking-widest">{featured.category}</span>
               </div>
               <h2 className="text-2xl md:text-3xl font-black uppercase tracking-wide leading-tight mb-4 group-hover:text-orange-500 transition-colors">

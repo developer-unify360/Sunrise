@@ -37,9 +37,9 @@ export default function TeamSection() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 justify-center">
-            <div className="w-8 h-0.5 bg-orange-500" />
-            <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">Our People</span>
-            <div className="w-8 h-0.5 bg-orange-500" />
+            <div className="w-8 h-0.5 bg-blue-600" />
+            <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Our People</span>
+            <div className="w-8 h-0.5 bg-blue-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
             Meet The <span className="text-orange-500">Team</span>

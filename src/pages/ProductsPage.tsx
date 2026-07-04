@@ -490,7 +490,7 @@ function ProductCard({ product }: { product: Product }) {
   const visibleSubs = expanded ? product.subcategories : product.subcategories.slice(0, 2);
 
   return (
-    <div className="bg-white border border-gray-200 hover:border-orange-500 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
+    <div className="bg-white border border-gray-200 hover:border-blue-600 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col">
       {/* Image with product name heading */}
       <div className="relative overflow-hidden h-52 flex-shrink-0">
         <img
@@ -500,10 +500,10 @@ function ProductCard({ product }: { product: Product }) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
         {/* Orange bottom accent */}
-        <div className="absolute bottom-0 left-0 right-0 h-1 bg-orange-500" />
+        <div className="absolute bottom-0 left-0 right-0 h-1 bg-blue-600" />
         {/* Product name as image heading */}
         <div className="absolute bottom-4 left-4 right-4">
-          <h3 className="text-white font-black text-base uppercase leading-tight group-hover:text-orange-300 transition-colors">
+          <h3 className="text-white font-black text-base uppercase leading-tight group-hover:text-blue-300 transition-colors">
             {product.title}
           </h3>
         </div>

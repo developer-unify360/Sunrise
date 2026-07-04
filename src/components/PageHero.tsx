@@ -19,7 +19,7 @@ export default function PageHero({ title, highlight, subtitle, image }: PageHero
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url('${image}')` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-orange-900/85 via-gray-900/70 to-orange-800/75" />
+      <div className="absolute inset-0 bg-gradient-to-r from-blue-900/85 via-gray-900/70 to-blue-800/75" />
       <div className="absolute left-0 top-0 bottom-0 w-2 bg-orange-500" />
       <div className="absolute top-0 left-0 right-0 h-1 bg-orange-500" />
 

@@ -30,12 +30,12 @@ export default function IndustriesSection() {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 mb-4">
-            <div className="w-8 h-0.5 bg-orange-500" />
-            <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">Industries</span>
-            <div className="w-8 h-0.5 bg-orange-500" />
+            <div className="w-8 h-0.5 bg-blue-600" />
+            <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Industries</span>
+            <div className="w-8 h-0.5 bg-blue-600" />
           </div>
           <h2 className="text-3xl md:text-4xl font-black uppercase text-gray-900">
-            Industries We <span className="text-orange-500">Serve</span>
+            Industries We <span className="text-blue-600">Serve</span>
           </h2>
           <p className="text-gray-500 mt-3 max-w-2xl mx-auto text-sm leading-relaxed">
             Our products are trusted across a wide range of industries worldwide —
@@ -58,10 +58,10 @@ export default function IndustriesSection() {
               />
 
               {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent group-hover:from-orange-700/80 group-hover:via-orange-600/40 transition-all duration-400" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/30 to-transparent group-hover:from-blue-700/80 group-hover:via-blue-600/40 transition-all duration-400" />
 
-              {/* Orange top accent on hover */}
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+              {/* Blue top accent on hover */}
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
 
               {/* Name */}
               <div className="absolute bottom-0 left-0 right-0 p-3">

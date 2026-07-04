@@ -31,7 +31,7 @@ export default function AboutSection() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-orange-500 -z-0" />
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-blue-600 -z-0" />
             <div className="absolute top-6 left-6 bg-blue-600 text-white p-5 z-20">
               <div className="text-5xl font-black leading-none">35</div>
               <div className="text-xs uppercase tracking-widest font-bold mt-1">Years of<br/>Excellence</div>
@@ -58,7 +58,7 @@ export default function AboutSection() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-10">
               {highlights.map(item => (
                 <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
-                  <CheckCircle size={15} className="text-orange-500 mt-0.5 shrink-0" />
+                  <CheckCircle size={15} className="text-blue-600 mt-0.5 shrink-0" />
                   {item}
                 </li>
               ))}

@@ -78,7 +78,7 @@ export default function AboutPage() {
                 <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Our Story</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight mb-6 text-gray-900">
-                A Legacy of <span className="text-blue-600">Quality"
+                A Legacy of <span className="text-blue-600">Quality</span>
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 SUNRISE ENTERPRISE, based in Vadodara (Gujarat), is a leading manufacturer and supplier of Stainless Steel Pipes, Fittings, Flanges, Valves and Raw Materials. We have been serving the industry since 1987 with an unwavering commitment to quality.
@@ -89,7 +89,7 @@ export default function AboutPage() {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-10">
                 {highlights.map(item => (
                   <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
-                    <CheckCircle size={15} className="text-orange-500 mt-0.5 shrink-0" />
+                    <CheckCircle size={15} className="text-blue-600 mt-0.5 shrink-0" />
                     {item}
                   </li>
                 ))}
@@ -109,7 +109,7 @@ export default function AboutPage() {
               <div className="w-8 h-0.5 bg-blue-600" />
             </div>
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-              Our Core <span className="text-blue-600">Values"
+              Our Core <span className="text-blue-600">Values</span>
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

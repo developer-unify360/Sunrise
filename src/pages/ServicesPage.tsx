@@ -95,7 +95,7 @@ export default function ServicesPage() {
                 <ul className="space-y-2 mb-8">
                   {svc.features.map(f => (
                     <li key={f} className="flex items-center gap-2 text-sm text-gray-700">
-                      <CheckCircle size={14} className="text-orange-500 shrink-0" />
+                      <CheckCircle size={14} className="text-blue-600 shrink-0" />
                       {f}
                     </li>
                   ))}

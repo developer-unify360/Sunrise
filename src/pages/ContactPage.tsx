@@ -38,8 +38,8 @@ export default function ContactPage() {
             ].map(item => {
               const content = (
                 <>
-                  <div className="w-12 h-12 bg-orange-50 border border-orange-200 flex items-center justify-center shrink-0 group-hover:bg-orange-500 transition-colors duration-300">
-                    <item.icon size={20} className="text-orange-500 group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 bg-blue-50 border border-blue-200 flex items-center justify-center shrink-0 group-hover:bg-blue-600 transition-colors duration-300">
+                    <item.icon size={20} className="text-blue-600 group-hover:text-white transition-colors" />
                   </div>
                   <div>
                     <div className="text-gray-400 text-[10px] uppercase tracking-widest font-bold mb-1">{item.label}</div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
               if (item.href) {
                 return (
                   <a key={item.label} href={item.href} target="_blank" rel="noopener noreferrer"
-                    className="bg-white border border-gray-200 hover:border-orange-500 hover:shadow-md p-6 flex items-start gap-4 transition-all duration-300 group">
+                    className="bg-white border border-gray-200 hover:border-blue-600 hover:shadow-md p-6 flex items-start gap-4 transition-all duration-300 group">
                     {content}
                   </a>
                 );
