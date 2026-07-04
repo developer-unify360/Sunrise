@@ -93,7 +93,7 @@ export default function Header({ scrolled }: HeaderProps) {
           {/* CTA */}
           <Link
             to="/contact"
-            className="hidden lg:flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-all duration-200 shadow-md hover:shadow-sky-200 hover:shadow-lg"
+            className="hidden lg:flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 rounded-md transition-all duration-200 shadow-md hover:shadow-sky-200 hover:shadow-lg"
           >
             Request a Quote
           </Link>
@@ -128,7 +128,7 @@ export default function Header({ scrolled }: HeaderProps) {
               <Link
                 to="/contact"
                 onClick={() => setMobileOpen(false)}
-                className="block text-center bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors"
+                className="block text-center bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 rounded-md transition-colors"
               >
                 Request a Quote
               </Link>

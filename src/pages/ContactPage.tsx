@@ -128,7 +128,7 @@ export default function ContactPage() {
                   </p>
                   <button
                     onClick={() => setSent(false)}
-                    className="mt-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
+                    className="mt-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 rounded-md transition-colors"
                   >
                     Send Another Message
                   </button>
@@ -144,12 +144,12 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Full Name *</label>
                       <input name="name" value={form.name} onChange={handleChange} required placeholder="Your Name"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Email Address *</label>
                       <input name="email" type="email" value={form.email} onChange={handleChange} required placeholder="you@company.com"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                   </div>
 
@@ -157,12 +157,12 @@ export default function ContactPage() {
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Phone Number</label>
                       <input name="phone" value={form.phone} onChange={handleChange} placeholder="+91 98765 43210"
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400" />
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors placeholder:text-gray-400" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Product Required</label>
                       <select name="service" value={form.service} onChange={handleChange}
-                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none">
+                        className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors appearance-none">
                         <option value="">Select product...</option>
                         <option>Flanges</option>
                         <option>Buttweld Fittings</option>
@@ -187,7 +187,7 @@ export default function ContactPage() {
                     <label className="block text-xs font-bold uppercase tracking-widest text-gray-500 mb-2">Requirements / Message *</label>
                     <textarea name="message" value={form.message} onChange={handleChange} required rows={5}
                       placeholder="Please describe the product, grade, size, quantity and delivery timeline..."
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400" />
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors resize-none placeholder:text-gray-400" />
                   </div>
 
                   <button type="submit"

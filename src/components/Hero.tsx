@@ -45,7 +45,7 @@ export default function Hero() {
           <div className="flex flex-col items-start">
 
             {/* Badge */}
-            <div className="inline-flex items-center gap-3 mb-8 bg-sky-600/20 border border-sky-600/40 px-5 py-2 backdrop-blur-sm">
+            <div className="inline-flex items-center gap-3 mb-8 bg-sky-600/20 border border-sky-600/40 px-5 py-2 rounded-full backdrop-blur-sm">
               <div className="w-2 h-2 bg-sky-600 rounded-full animate-pulse" />
               <span className="text-sky-400 text-xs font-bold uppercase tracking-[0.3em]">
                 Built on Precision, Backed by Trust
@@ -70,14 +70,14 @@ export default function Hero() {
             <div className="flex flex-wrap items-center gap-4 mb-14">
               <Link
                 to="/products"
-                className="group inline-flex items-center gap-3 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200 shadow-lg shadow-sky-600/30"
+                className="group inline-flex items-center gap-3 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 rounded-md transition-all duration-200 shadow-lg shadow-sky-600/30"
               >
                 Explore Products
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-3 border-2 border-white/50 hover:border-sky-600 hover:bg-sky-600 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200"
+                className="inline-flex items-center gap-3 border-2 border-white/50 hover:border-sky-600 hover:bg-sky-600 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 rounded-md transition-all duration-200"
               >
                 Request a Quote
               </Link>

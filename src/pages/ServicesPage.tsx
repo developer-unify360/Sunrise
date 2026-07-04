@@ -102,7 +102,7 @@ export default function ServicesPage() {
                 </ul>
                 <Link
                   to="/contact"
-                  className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-xs px-6 py-3 transition-colors"
+                  className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-xs px-6 py-3 rounded-md transition-colors"
                 >
                   Request a Quote <ArrowRight size={14} />
                 </Link>

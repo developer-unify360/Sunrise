@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
           <Link
             to="/contact"
-            className="shrink-0 inline-flex items-center gap-2 bg-white text-sky-600 hover:bg-sky-50 font-black uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg"
+            className="shrink-0 inline-flex items-center gap-2 bg-white text-sky-600 hover:bg-sky-50 font-black uppercase tracking-widest text-sm px-8 py-4 rounded-md transition-colors shadow-lg"
           >
             Talk to Us <ArrowRight size={16} />
           </Link>

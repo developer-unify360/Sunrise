@@ -140,7 +140,7 @@ export default function ProductsSection() {
           </div>
           <Link
             to="/products"
-            className="hidden md:inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors shadow-md"
+            className="hidden md:inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 rounded-md transition-colors shadow-md"
           >
             View Full Catalogue <ArrowRight size={14} />
           </Link>
@@ -200,7 +200,7 @@ export default function ProductsSection() {
         <div className="text-center mt-10 md:hidden">
           <Link
             to="/products"
-            className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-8 py-4 transition-colors"
+            className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-8 py-4 rounded-md transition-colors"
           >
             View Full Catalogue <ArrowRight size={14} />
           </Link>

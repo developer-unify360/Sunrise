@@ -587,7 +587,7 @@ export default function ProductsPage() {
             </div>
             <Link
               to="/contact"
-              className="flex-shrink-0 bg-white text-sky-600 hover:bg-sky-50 font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors flex items-center gap-2"
+              className="flex-shrink-0 bg-white text-sky-600 hover:bg-sky-50 font-bold text-xs uppercase tracking-widest px-6 py-3 rounded-md transition-colors flex items-center gap-2"
             >
               Request a Quote <ArrowRight size={14} />
             </Link>
@@ -636,13 +636,13 @@ export default function ProductsPage() {
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg shadow-sky-200"
+                className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 rounded-md transition-colors shadow-lg shadow-sky-200"
               >
                 Contact Us <ArrowRight size={16} />
               </Link>
               <a
                 href="tel:+919722775181"
-                className="inline-flex items-center gap-2 border-2 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-all duration-200"
+                className="inline-flex items-center gap-2 border-2 border-sky-600 text-sky-600 hover:bg-sky-600 hover:text-white font-bold uppercase tracking-widest text-sm px-8 py-4 rounded-md transition-all duration-200"
               >
                 Call: +91 97227 75181
               </a>

@@ -66,7 +66,7 @@ export default function AboutSection() {
 
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-xs px-8 py-4 transition-colors"
+              className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-xs px-8 py-4 rounded-md transition-colors"
             >
               Discover Our Story
             </a>

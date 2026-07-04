@@ -99,7 +99,7 @@ export default function ContactSection() {
                 </p>
                 <button
                   onClick={() => setSent(false)}
-                  className="mt-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
+                  className="mt-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 rounded-md transition-colors"
                 >
                   Submit Another Request
                 </button>
@@ -115,7 +115,7 @@ export default function ContactSection() {
                       onChange={handleChange}
                       required
                       placeholder="Your Name"
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors placeholder:text-gray-400"
                     />
                   </div>
                   <div>
@@ -127,7 +127,7 @@ export default function ContactSection() {
                       onChange={handleChange}
                       required
                       placeholder="you@company.com"
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors placeholder:text-gray-400"
                     />
                   </div>
                 </div>
@@ -140,7 +140,7 @@ export default function ContactSection() {
                       value={form.phone}
                       onChange={handleChange}
                       placeholder="+91 98765 43210"
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors placeholder:text-gray-400"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors placeholder:text-gray-400"
                     />
                   </div>
                   <div>
@@ -149,7 +149,7 @@ export default function ContactSection() {
                       name="product"
                       value={form.product}
                       onChange={handleChange}
-                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors appearance-none"
+                      className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors appearance-none"
                     >
                       <option value="">Select product...</option>
                       <option>Flanges</option>
@@ -177,7 +177,7 @@ export default function ContactSection() {
                     required
                     rows={5}
                     placeholder="Please describe the product, grade, size, quantity and delivery timeline..."
-                    className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 outline-none transition-colors resize-none placeholder:text-gray-400"
+                    className="w-full bg-gray-50 border-2 border-gray-200 focus:border-sky-600 text-gray-900 text-sm px-4 py-3 rounded-md outline-none transition-colors resize-none placeholder:text-gray-400"
                   />
                 </div>
 

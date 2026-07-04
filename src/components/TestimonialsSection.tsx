@@ -66,9 +66,9 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Testimonial card */}
-        <div className="relative bg-white rounded-none shadow-2xl shadow-black/30 px-8 md:px-16 pt-16 pb-12">
+        <div className="relative bg-white rounded-2xl shadow-2xl shadow-black/30 px-8 md:px-16 pt-16 pb-12">
           {/* Big quote icon */}
-          <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 bg-sky-600 border-4 border-white flex items-center justify-center shadow-lg">
+          <div className="absolute -top-7 left-1/2 -translate-x-1/2 w-14 h-14 bg-sky-600 border-4 border-white rounded-full flex items-center justify-center shadow-lg">
             <Quote size={22} className="text-white" />
           </div>
 
