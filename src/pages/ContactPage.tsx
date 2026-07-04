@@ -31,9 +31,9 @@ export default function ContactPage() {
           {/* Info cards */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
             {[
-              { icon: Phone, label: 'Phone',   value: '+91 0265 - 2632006',       sub: 'Mon–Sat 9AM–6PM',       href: 'tel:+91-0265-2632006' },
-              { icon: Mail,  label: 'Email',   value: 'sunrent20@gmail.com',  sub: 'Reply within 24 hours', href: 'mailto:sunrent20@gmail.com' },
-              { icon: MapPin,label: 'Address', value: 'C-1/289, Shop No. 1-2, Shree Pramukh Swami', sub: 'Makarpura, Vadodara - 390 010', href: 'https://maps.app.goo.gl/NAZCdzjXUBibeSTq7' },
+              { icon: Phone, label: 'Phone',   value: '+91 97227 75181',       sub: 'Mon–Sat 9AM–6PM',       href: 'tel:+919722775181' },
+              { icon: Mail,  label: 'Email',   value: 'sunernt20@gmail.com',  sub: 'Reply within 24 hours', href: 'mailto:sunernt20@gmail.com' },
+              { icon: MapPin,label: 'Address', value: 'C-1/389, Shop No. 1-2, Shree Pramukh Swami', sub: 'GIDC, Makarpura, Vadodara - 390 010', href: 'https://maps.app.goo.gl/NAZCdzjXUBibeSTq7' },
               { icon: Clock, label: 'Hours',   value: 'Mon–Sat: 9:00–18:00',  sub: 'Sunday: Closed' },
             ].map(item => {
               const content = (
@@ -95,17 +95,17 @@ export default function ContactPage() {
 
                 {/* Contact quick links */}
                 <div className="mt-8 space-y-3">
-                  <a href="tel:+919723269427" className="flex items-center gap-3 text-white/90 hover:text-white transition-colors text-sm font-bold group">
+                  <a href="tel:+919722775181" className="flex items-center gap-3 text-white/90 hover:text-white transition-colors text-sm font-bold group">
                     <Phone size={14} className="shrink-0" />
-                    +91 97232 69427
+                    +91 97227 75181
                   </a>
-                  <a href="mailto:sunrent20@gmail.com" className="flex items-center gap-3 text-white/90 hover:text-white transition-colors text-sm font-bold group">
+                  <a href="mailto:sunernt20@gmail.com" className="flex items-center gap-3 text-white/90 hover:text-white transition-colors text-sm font-bold group">
                     <Mail size={14} className="shrink-0" />
-                    sunrent20@gmail.com
+                    sunernt20@gmail.com
                   </a>
                   <div className="flex items-start gap-3 text-white/90 text-sm">
                     <MapPin size={14} className="shrink-0 mt-0.5" />
-                    C-1/289, Shop No. 1-2, Shree Pramukh Swami Industrial Estate, Makarpura, Vadodara - 390 010
+                    C-1/389, Shop No. 1-2, Shree Pramukh Swami Industrial Estate, GIDC, Makarpura, Vadodara - 390 010
                   </div>
                 </div>
               </div>

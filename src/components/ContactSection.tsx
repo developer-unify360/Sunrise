@@ -40,9 +40,9 @@ export default function ContactSection() {
 
               <div className="space-y-6">
                 {[
-                  { icon: Phone, label: 'Phone', value: '+91 0265 - 2632006', sub: 'Mon–Sat 9AM–6PM', href: 'tel:+91-0265-2632006' },
-                  { icon: Mail, label: 'Email', value: 'sunrent20@gmail.com', sub: 'Reply within 24 hours', href: 'mailto:sunrent20@gmail.com' },
-                  { icon: MapPin, label: 'Address', value: 'C-1/289, Shop No. 1-2, Shree Pramukh Swami', sub: 'Makarpura, Vadodara - 390 010', href: 'https://maps.google.com' },
+                  { icon: Phone, label: 'Phone', value: '+91 97227 75181', sub: 'Mon–Sat 9AM–6PM', href: 'tel:+919722775181' },
+                  { icon: Mail, label: 'Email', value: 'sunernt20@gmail.com', sub: 'Reply within 24 hours', href: 'mailto:sunernt20@gmail.com' },
+                  { icon: MapPin, label: 'Address', value: 'C-1/389, Shop No. 1-2, Shree Pramukh Swami Industrial Estate', sub: 'GIDC, Makarpura, Vadodara - 390 010', href: 'https://maps.google.com' },
                   { icon: Clock, label: 'Hours', value: 'Mon–Sat: 9:00 AM – 6:00 PM', sub: 'Sunday: Closed' },
                 ].map(item => {
                   const content = (

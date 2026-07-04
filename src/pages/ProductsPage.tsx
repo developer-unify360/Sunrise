@@ -641,10 +641,10 @@ export default function ProductsPage() {
                 Contact Us <ArrowRight size={16} />
               </Link>
               <a
-                href="tel:+919723269427"
+                href="tel:+919722775181"
                 className="inline-flex items-center gap-2 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-all duration-200"
               >
-                Call: +91 97232 69427
+                Call: +91 97227 75181
               </a>
             </div>
           </div>
