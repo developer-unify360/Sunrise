@@ -48,21 +48,22 @@ export default function Hero() {
             <div className="inline-flex items-center gap-3 mb-8 bg-sky-600/20 border border-sky-600/40 px-5 py-2 backdrop-blur-sm">
               <div className="w-2 h-2 bg-sky-600 rounded-full animate-pulse" />
               <span className="text-sky-400 text-xs font-bold uppercase tracking-[0.3em]">
-                Commit to Quality, Deliver with Pride
+                Built on Precision, Backed by Trust
               </span>
             </div>
 
             {/* Heading */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black uppercase leading-[0.9] mb-6">
-              <span className="block text-white">World Class</span>
-              <span className="block text-sky-600">Engineering</span>
-              <span className="block text-white">Quality Products</span>
+              <span className="block text-white">Industry Leading</span>
+              <span className="block text-sky-600">Craftsmanship</span>
+              <span className="block text-white">In Every Component</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-white/75 text-base md:text-lg leading-relaxed mb-10 max-w-xl">
-              SUNRISE ENTERPRISE delivers precision-engineered pipes, fittings, flanges,
-              valves and raw materials — trusted by industries worldwide for quality and reliability.
+              SUNRISE ENTERPRISE manufactures and supplies premium-grade pipes, fittings, flanges,
+              valves and raw materials, earning the confidence of industries across the globe through
+              consistent quality and dependable service.
             </p>
 
             {/* Buttons */}
@@ -71,24 +72,24 @@ export default function Hero() {
                 to="/products"
                 className="group inline-flex items-center gap-3 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200 shadow-lg shadow-sky-600/30"
               >
-                Our Products
+                Explore Products
                 <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-3 border-2 border-white/50 hover:border-sky-600 hover:bg-sky-600 text-white font-bold uppercase tracking-widest text-sm px-10 py-4 transition-all duration-200"
               >
-                Get a Quote
+                Request a Quote
               </Link>
             </div>
 
             {/* Stats */}
             <div className="flex flex-wrap gap-8 pt-8 border-t border-white/10 w-full">
               {[
-                { value: '35+',  label: 'Years Experience' },
-                { value: '500+', label: 'Products Range' },
-                { value: '50+',  label: 'Countries Served' },
-                { value: '98%',  label: 'Client Satisfaction' },
+                { value: '35+',  label: 'Years in Business' },
+                { value: '500+', label: 'Product Varieties' },
+                { value: '50+',  label: 'Global Markets' },
+                { value: '98%',  label: 'Customer Satisfaction' },
               ].map(stat => (
                 <div key={stat.label} className="text-center">
                   <div className="text-3xl font-black text-sky-600 leading-none">{stat.value}</div>
@@ -126,7 +127,7 @@ export default function Hero() {
             {/* Decorative bottom tagline */}
             <div className="col-span-2 bg-sky-600/20 border border-sky-600/40 backdrop-blur-sm px-4 py-3 text-center">
               <p className="text-sky-300 text-[11px] font-bold uppercase tracking-[0.3em]">
-                500+ Products · 50+ Countries · Since 1987
+                500+ SKUs · Exporting to 50+ Nations · Est. 1987
               </p>
             </div>
           </div>

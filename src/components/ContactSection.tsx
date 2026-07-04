@@ -20,14 +20,14 @@ export default function ContactSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 justify-center">
             <div className="w-8 h-0.5 bg-sky-600" />
-            <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">Get In Touch</span>
+            <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">Let's Talk</span>
             <div className="w-8 h-0.5 bg-sky-600" />
           </div>
           <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-            Request a <span className="text-sky-600">Quote</span>
+            Get a <span className="text-sky-600">Quote</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl mx-auto text-sm leading-relaxed">
-            Tell us your product requirements and our team will respond within 24 hours with pricing and availability.
+            Share your requirements with us and one of our specialists will get back to you within 24 hours with pricing and stock availability.
           </p>
         </div>
 
@@ -93,15 +93,15 @@ export default function ContactSection() {
                 <div className="w-16 h-16 bg-sky-50 border-2 border-sky-600 flex items-center justify-center">
                   <CheckCircle size={32} className="text-sky-600" />
                 </div>
-                <h3 className="text-gray-900 font-black text-2xl uppercase">Message Sent!</h3>
+                <h3 className="text-gray-900 font-black text-2xl uppercase">Thanks for Reaching Out!</h3>
                 <p className="text-gray-500 text-sm max-w-xs">
-                  Thank you for reaching out. Our team will review your request and respond within 24 hours.
+                  We've received your message and one of our specialists will get in touch within 24 hours.
                 </p>
                 <button
                   onClick={() => setSent(false)}
                   className="mt-4 bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold uppercase tracking-widest px-6 py-3 transition-colors"
                 >
-                  Send Another Message
+                  Submit Another Request
                 </button>
               </div>
             ) : (

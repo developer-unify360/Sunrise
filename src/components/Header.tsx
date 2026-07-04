@@ -95,7 +95,7 @@ export default function Header({ scrolled }: HeaderProps) {
             to="/contact"
             className="hidden lg:flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-all duration-200 shadow-md hover:shadow-sky-200 hover:shadow-lg"
           >
-            Get a Quote
+            Request a Quote
           </Link>
 
           {/* Mobile toggle */}
@@ -130,7 +130,7 @@ export default function Header({ scrolled }: HeaderProps) {
                 onClick={() => setMobileOpen(false)}
                 className="block text-center bg-sky-600 hover:bg-sky-700 text-white font-bold text-xs uppercase tracking-widest px-6 py-3 transition-colors"
               >
-                Get a Quote
+                Request a Quote
               </Link>
             </div>
           </div>

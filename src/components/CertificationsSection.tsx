@@ -65,7 +65,7 @@ export default function CertificationsSection() {
                 </h2>
               </div>
               <p className="text-gray-400 text-xs">
-                Our products are inspected and certified by globally recognised bodies
+                Every batch is verified and signed off by internationally recognised inspection agencies
               </p>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function CertificationsSection() {
                 </h2>
               </div>
               <p className="text-gray-400 text-xs">
-                All products conform to international quality and safety standards
+                Every product line is built to meet recognised global quality and safety benchmarks
               </p>
             </div>
           </div>
@@ -136,8 +136,8 @@ export default function CertificationsSection() {
           </div>
 
           <p className="mt-8 text-gray-400 text-xs leading-relaxed border-l-2 border-sky-600 pl-3 max-w-2xl">
-            Includes ASTM, ASME, DIN, JIS, EN, ANSI, BS, API, NACE, IS, 3A Sanitary &amp; SMS compliance
-            across all our product lines.
+            Our entire catalog is manufactured in line with ASTM, ASME, DIN, JIS, EN, ANSI, BS, API, NACE,
+            IS, 3A Sanitary &amp; SMS requirements.
           </p>
 
         </div>

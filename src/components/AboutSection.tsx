@@ -3,12 +3,12 @@ import IMG_MOLTEN_STEEL from '../assets/Images/pexels-photo-2760243.jpeg';
 import IMG_QUALITY_CHECK from '../assets/Images/pexels-photo-190537.jpeg';
 
 const highlights = [
-  'ISO 9001:2015 Certified Manufacturer',
-  'State-of-the-art CNC machining centers',
-  'In-house metallurgical laboratory',
-  'Dedicated quality assurance team',
-  'On-time delivery guarantee',
-  '24/7 technical support',
+  'ISO 9001:2015 Certified Facility',
+  'Advanced CNC Machining Setup',
+  'In-House Metallurgy Lab',
+  'Dedicated QA Specialists',
+  'Reliable, On-Time Dispatch',
+  'Round-the-Clock Technical Assistance',
 ];
 
 export default function AboutSection() {
@@ -45,14 +45,14 @@ export default function AboutSection() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight mb-6 text-gray-900">
-              Quality Steel <span className="text-sky-600">Products</span>
+              Engineered for <span className="text-sky-600">Performance</span>
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              SUNRISE ENTERPRISE is a leading manufacturer and supplier of SS Pipes, Fittings, Flanges, Valves, and Raw Materials. We are committed to delivering world-class engineering quality products to industries worldwide.
+              SUNRISE ENTERPRISE manufactures and supplies stainless steel pipes, fittings, flanges, valves and raw materials to industries around the world, backed by a firm commitment to engineering excellence.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              From precision fittings to bulk raw materials, our comprehensive product range meets international standards — ensuring quality, reliability and on-time delivery every time.
+              Whether it's a precision fitting or a bulk raw material order, every item in our catalog is held to international standards, so reliability and punctual delivery are never in question.
             </p>
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-10">
@@ -68,7 +68,7 @@ export default function AboutSection() {
               href="#contact"
               className="inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white font-bold uppercase tracking-widest text-xs px-8 py-4 transition-colors"
             >
-              Learn More About Us
+              Discover Our Story
             </a>
           </div>
         </div>

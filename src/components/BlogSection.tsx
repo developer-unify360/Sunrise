@@ -2,8 +2,8 @@ import { Calendar, User, ArrowRight, Tag } from 'lucide-react';
 
 const posts = [
   {
-    title: 'The Future of High-Strength Steel in Sustainable Construction',
-    excerpt: 'New low-carbon steel alloys are redefining what is possible in green building design while maintaining structural integrity.',
+    title: 'Why Low-Carbon Steel Alloys Are Reshaping Sustainable Construction',
+    excerpt: 'A new generation of steel alloys is proving that green building goals and structural integrity no longer have to be a trade-off.',
     category: 'Industry Insights',
     author: 'Maria Kovacs',
     date: 'April 15, 2024',
@@ -11,8 +11,8 @@ const posts = [
     featured: true,
   },
   {
-    title: 'How CNC Technology Is Transforming Precision Manufacturing',
-    excerpt: 'Five-axis machining centers are enabling geometries that were impossible a decade ago, opening new frontiers in aerospace and energy.',
+    title: 'Five-Axis CNC Machining: The Next Leap in Precision Manufacturing',
+    excerpt: 'Complex geometries once thought impossible are now routine, unlocking new possibilities for aerospace and energy applications.',
     category: 'Technology',
     author: 'James Whitfield',
     date: 'March 28, 2024',
@@ -20,8 +20,8 @@ const posts = [
     featured: false,
   },
   {
-    title: 'Understanding ISO 9001: What Certification Means For You',
-    excerpt: 'A breakdown of what ISO 9001:2015 certification requires and why it matters for procurement decisions in industrial projects.',
+    title: 'ISO 9001 Explained: Why It Matters When Choosing a Supplier',
+    excerpt: 'What ISO 9001:2015 certification actually requires, and why procurement teams should treat it as a non-negotiable checkbox.',
     category: 'Quality',
     author: 'Sandra Reyes',
     date: 'March 10, 2024',
@@ -38,14 +38,14 @@ export default function BlogSection() {
           <div>
             <div className="inline-flex items-center gap-2 mb-4">
               <div className="w-8 h-0.5 bg-sky-600" />
-              <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">News & Insights</span>
+              <span className="text-sky-600 text-xs font-bold uppercase tracking-[0.3em]">From the Journal</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight">
-              Latest from <span className="text-sky-600">The Blog</span>
+              Insights & <span className="text-sky-600">Updates</span>
             </h2>
           </div>
           <a href="#" className="hidden md:inline-flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-neutral-400 hover:text-sky-600 transition-colors">
-            All Articles <ArrowRight size={14} />
+            Browse All <ArrowRight size={14} />
           </a>
         </div>
 
@@ -72,7 +72,7 @@ export default function BlogSection() {
               </h3>
               <p className="text-neutral-400 text-sm leading-relaxed mb-4">{posts[0].excerpt}</p>
               <a href="#" className="inline-flex items-center gap-2 text-sky-600 text-xs font-bold uppercase tracking-widest hover:gap-3 transition-all">
-                Read Article <ArrowRight size={12} />
+                Continue Reading <ArrowRight size={12} />
               </a>
             </div>
           </div>

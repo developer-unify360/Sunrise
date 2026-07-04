@@ -36,17 +36,17 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h3 className="text-white font-black text-2xl uppercase tracking-wide">
-              Ready to Get a Quote?
+              Have a Project in Mind?
             </h3>
             <p className="text-white/80 text-sm mt-1">
-              Contact us for pricing, availability, and custom requirements within 24 hours.
+              Reach out for pricing, stock availability, or a custom order — we typically respond within 24 hours.
             </p>
           </div>
           <Link
             to="/contact"
             className="shrink-0 inline-flex items-center gap-2 bg-white text-sky-600 hover:bg-sky-50 font-black uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg"
           >
-            Request a Quote <ArrowRight size={16} />
+            Talk to Us <ArrowRight size={16} />
           </Link>
         </div>
       </div>
@@ -65,11 +65,11 @@ export default function Footer() {
             />
             </Link>
             <p className="text-sky-600 text-sm font-bold uppercase tracking-wide mb-2">
-              Commit to Quality, Deliver with Pride
+              Built on Precision, Backed by Trust
             </p>
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">
-              SUNRISE ENTERPRISE delivers precision-engineered pipes, fittings, flanges, valves
-              and raw materials trusted worldwide since 1987.
+              SUNRISE ENTERPRISE has been manufacturing and supplying pipes, fittings, flanges,
+              valves and raw materials to industries worldwide since 1987.
             </p>
             <div className="space-y-3 text-sm">
               {[
