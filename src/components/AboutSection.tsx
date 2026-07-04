@@ -32,7 +32,7 @@ export default function AboutSection() {
               />
             </div>
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-orange-500 -z-0" />
-            <div className="absolute top-6 left-6 bg-orange-500 text-white p-5 z-20">
+            <div className="absolute top-6 left-6 bg-blue-600 text-white p-5 z-20">
               <div className="text-5xl font-black leading-none">35</div>
               <div className="text-xs uppercase tracking-widest font-bold mt-1">Years of<br/>Excellence</div>
             </div>
@@ -40,16 +40,16 @@ export default function AboutSection() {
 
           <div className="lg:pl-8">
             <div className="inline-flex items-center gap-2 mb-4">
-              <div className="w-8 h-0.5 bg-orange-500" />
-              <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">About Us</span>
+              <div className="w-8 h-0.5 bg-blue-600" />
+              <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">About Us</span>
             </div>
 
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight mb-6 text-gray-900">
-              Quality Steel <span className="text-orange-500">Products</span>
+              Quality Steel <span className="text-blue-600">Products</span>
             </h2>
 
             <p className="text-gray-600 leading-relaxed mb-4">
-              Satvik Pipe Industries is a leading manufacturer and supplier of SS Pipes, Fittings, Flanges, Valves, and Raw Materials. We are committed to delivering world-class engineering quality products to industries worldwide.
+              SUNRISE ENTERPRISE is a leading manufacturer and supplier of SS Pipes, Fittings, Flanges, Valves, and Raw Materials. We are committed to delivering world-class engineering quality products to industries worldwide.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
               From precision fittings to bulk raw materials, our comprehensive product range meets international standards — ensuring quality, reliability and on-time delivery every time.

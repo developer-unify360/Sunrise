@@ -513,7 +513,7 @@ function ProductCard({ product }: { product: Product }) {
       <div className="border-b border-gray-100">
         {product.specs.map((spec) => (
           <div key={spec.label} className="flex border-b border-gray-50 last:border-0">
-            <div className="bg-orange-500 text-white text-[10px] font-bold uppercase px-3 py-2 w-32 flex-shrink-0 flex items-center leading-tight">
+            <div className="bg-blue-600 text-white text-[10px] font-bold uppercase px-3 py-2 w-32 flex-shrink-0 flex items-center leading-tight">
               {spec.label}
             </div>
             <div className="text-gray-700 text-xs px-3 py-2 flex items-center font-medium leading-tight">
@@ -631,12 +631,12 @@ export default function ProductsPage() {
           <div className="text-center mt-16 py-12 border-t border-gray-200">
             <p className="text-gray-500 text-sm mb-2 uppercase tracking-widest font-bold">Have a Project in Mind?</p>
             <h3 className="text-3xl font-black uppercase text-gray-900 mb-6">
-              Let's Discuss Your <span className="text-orange-500">Requirements</span>
+              Let's Discuss Your <span className="text-blue-600">Requirements</span>
             </h3>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 to="/contact"
-                className="inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg shadow-orange-200"
+                className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-widest text-sm px-8 py-4 transition-colors shadow-lg shadow-blue-200"
               >
                 Contact Us <ArrowRight size={16} />
               </Link>

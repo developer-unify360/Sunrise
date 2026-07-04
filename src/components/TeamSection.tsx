@@ -6,7 +6,7 @@ import IMG_TEAM_SANDRA from '../assets/Images/pexels-photo-3785079.jpeg';
 
 const team = [
   {
-    name: 'Satvik Management',
+    name: 'Sunrise Management',
     role: 'Director',
     image: IMG_TEAM_ROBERT,
     bio: '35+ years of experience in stainless steel pipe & fitting industry across India and global markets.',

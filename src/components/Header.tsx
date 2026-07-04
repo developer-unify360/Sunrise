@@ -22,16 +22,16 @@ export default function Header({ scrolled }: HeaderProps) {
   return (
     <>
       {/* Top bar */}
-      <div className="hidden md:block bg-orange-500 fixed top-0 left-0 right-0 z-50">
+      <div className="hidden md:block bg-blue-600 fixed top-0 left-0 right-0 z-50">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-10 text-xs text-white">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-1.5 font-semibold">
               <Phone size={11} />
-              +91 97232 69427
+              +91 0265 - 2632006
             </span>
             <span className="flex items-center gap-1.5 font-semibold">
               <Mail size={11} />
-              satvikpipe@gmail.com
+              sunrent20@gmail.com
             </span>
           </div>
           <div className="flex items-center gap-6">
@@ -58,7 +58,7 @@ export default function Header({ scrolled }: HeaderProps) {
       <header
         className={`fixed left-0 right-0 z-40 transition-all duration-300 top-0 md:top-10 ${
           scrolled
-            ? 'bg-white shadow-lg border-b-2 border-orange-500'
+            ? 'bg-white shadow-lg border-b-2 border-blue-600'
             : 'bg-white/95 backdrop-blur-sm border-b border-gray-100'
         }`}
       >
@@ -67,7 +67,7 @@ export default function Header({ scrolled }: HeaderProps) {
           <Link to="/" className="flex items-center gap-3 group">
             <img
               src={Logo}
-              alt="Satvik Pipe Industries"
+              alt="Sunrise Enterprise"
               className="h-14 w-auto object-contain"
             />
           </Link>
@@ -82,7 +82,7 @@ export default function Header({ scrolled }: HeaderProps) {
                   to={link.href}
                   className={`px-4 py-2 text-sm font-bold uppercase tracking-wider transition-all duration-200 relative group ${
                     isActive
-                      ? 'text-orange-500'
+                      ? 'text-blue-600'
                       : 'text-gray-700 hover:text-orange-500'
                   }`}
                 >

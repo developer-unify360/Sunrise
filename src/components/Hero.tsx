@@ -55,13 +55,13 @@ export default function Hero() {
             {/* Heading */}
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-black uppercase leading-[0.9] mb-6">
               <span className="block text-white">World Class</span>
-              <span className="block text-orange-500">Engineering</span>
+              <span className="block text-blue-600">Engineering</span>
               <span className="block text-white">Quality Products</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-white/75 text-base md:text-lg leading-relaxed mb-10 max-w-xl">
-              Satvik Pipe Industries delivers precision-engineered pipes, fittings, flanges,
+              SUNRISE ENTERPRISE delivers precision-engineered pipes, fittings, flanges,
               valves and raw materials — trusted by industries worldwide for quality and reliability.
             </p>
 
@@ -112,8 +112,8 @@ export default function Hero() {
                 />
                 {/* Dark overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                {/* Orange bottom bar */}
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                {/* Blue bottom bar */}
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-600 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
                 {/* Label */}
                 <div className="absolute bottom-3 left-3 right-3">
                   <p className="text-white text-xs font-bold uppercase tracking-wide leading-tight">
@@ -124,7 +124,7 @@ export default function Hero() {
             ))}
 
             {/* Decorative bottom tagline */}
-            <div className="col-span-2 bg-orange-500/20 border border-orange-500/40 backdrop-blur-sm px-4 py-3 text-center">
+            <div className="col-span-2 bg-blue-600/20 border border-blue-600/40 backdrop-blur-sm px-4 py-3 text-center">
               <p className="text-orange-300 text-[11px] font-bold uppercase tracking-[0.3em]">
                 500+ Products · 50+ Countries · Since 1987
               </p>

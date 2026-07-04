@@ -28,10 +28,10 @@
     font-family: 'Barlow Condensed', sans-serif;
   }
   .bg-brand {
-    background-color: #f97316;
+    background-color: #2563eb;
   }
   .text-brand {
-    color: #f97316;
+    color: #2563eb;
   }
 }
 
@@ -42,8 +42,8 @@
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: #f97316;
+  background: #2563eb;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #ea6a08;
+  background: #1d4ed8;
 }

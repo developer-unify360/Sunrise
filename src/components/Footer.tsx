@@ -60,21 +60,21 @@ export default function Footer() {
             <Link to="/" className="flex items-center gap-3 mb-5">
               <img
                 src={Logo}
-                alt="Satvik Pipe Industries"
-                className="h-20 w-auto object-contain p-1"
-              />
+              alt="Sunrise Enterprise"
+              className="h-20 w-auto object-contain p-1"
+            />
             </Link>
-            <p className="text-orange-500 text-sm font-bold uppercase tracking-wide mb-2">
+            <p className="text-blue-600 text-sm font-bold uppercase tracking-wide mb-2">
               Commit to Quality, Deliver with Pride
             </p>
             <p className="text-gray-500 text-sm leading-relaxed mb-6 max-w-xs">
-              Satvik Pipe Industries delivers precision-engineered pipes, fittings, flanges, valves
+              SUNRISE ENTERPRISE delivers precision-engineered pipes, fittings, flanges, valves
               and raw materials trusted worldwide since 1987.
             </p>
             <div className="space-y-3 text-sm">
               {[
-                { icon: Phone, text: '+91 97232 69427', href: 'tel:+919723269427' },
-                { icon: Mail, text: 'satvikpipe@gmail.com', href: 'mailto:satvikpipe@gmail.com' },
+                { icon: Phone, text: '+91 0265 - 2632006', href: 'tel:+91-0265-2632006' },
+                { icon: Mail, text: 'sunrent20@gmail.com', href: 'mailto:sunrent20@gmail.com' },
                 { icon: MapPin, text: '749/7/4, G.I.D.C. Makarpura, Vadodara - 390 010, Gujarat', href: 'https://maps.google.com' },
               ].map(item => (
                 <div key={item.text} className="flex items-start gap-2 text-gray-500">
@@ -119,7 +119,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-200 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-gray-500">
-          <span>© {new Date().getFullYear()} Satvik Pipe Industries. All rights reserved. | 749/7/4, G.I.D.C. Makarpura, Vadodara - 390 010.</span>
+          <span>© {new Date().getFullYear()} Sunrise Enterprise. All rights reserved. | C-1/289, Shop No. 1-2, Makarpura, Vadodara - 390 010.</span>
           <div className="flex items-center gap-5">
             <span className="text-gray-400">
               Designed &amp; Developed by{' '}
@@ -127,7 +127,7 @@ export default function Footer() {
                 href="https://unify360.in"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-orange-500 font-bold hover:text-orange-600 transition-colors"
+                  className="text-blue-600 font-bold hover:text-blue-700 transition-colors"
               >
                 Unify-360
               </a>

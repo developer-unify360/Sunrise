@@ -31,9 +31,9 @@ export default function ContactPage() {
           {/* Info cards */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
             {[
-              { icon: Phone, label: 'Phone',   value: '+91 97232 69427',       sub: 'Mon–Sat 9AM–6PM',       href: 'tel:+919723269427' },
-              { icon: Mail,  label: 'Email',   value: 'satvikpipe@gmail.com',  sub: 'Reply within 24 hours', href: 'mailto:satvikpipe@gmail.com' },
-              { icon: MapPin,label: 'Address', value: '749/7/4, G.I.D.C. Makarpura', sub: 'Vadodara, Gujarat 390010', href: 'https://maps.app.goo.gl/NAZCdzjXUBibeSTq7' },
+              { icon: Phone, label: 'Phone',   value: '+91 0265 - 2632006',       sub: 'Mon–Sat 9AM–6PM',       href: 'tel:+91-0265-2632006' },
+              { icon: Mail,  label: 'Email',   value: 'sunrent20@gmail.com',  sub: 'Reply within 24 hours', href: 'mailto:sunrent20@gmail.com' },
+              { icon: MapPin,label: 'Address', value: 'C-1/289, Shop No. 1-2, Shree Pramukh Swami', sub: 'Makarpura, Vadodara - 390 010', href: 'https://maps.app.goo.gl/NAZCdzjXUBibeSTq7' },
               { icon: Clock, label: 'Hours',   value: 'Mon–Sat: 9:00–18:00',  sub: 'Sunday: Closed' },
             ].map(item => {
               const content = (
@@ -68,8 +68,8 @@ export default function ContactPage() {
           {/* Form + info panel */}
           <div className="grid lg:grid-cols-5 gap-0 shadow-xl shadow-gray-200">
 
-            {/* Left info panel — orange */}
-            <div className="lg:col-span-2 bg-orange-500 p-8 lg:p-10 flex flex-col justify-between">
+            {/* Left info panel — blue */}
+            <div className="lg:col-span-2 bg-blue-600 p-8 lg:p-10 flex flex-col justify-between">
               <div>
                 <h3 className="text-white font-black text-2xl uppercase tracking-wide mb-2">Get a Free Quote</h3>
                 <div className="w-12 h-0.5 bg-white/40 mb-6" />
@@ -99,13 +99,13 @@ export default function ContactPage() {
                     <Phone size={14} className="shrink-0" />
                     +91 97232 69427
                   </a>
-                  <a href="mailto:satvikpipe@gmail.com" className="flex items-center gap-3 text-white/90 hover:text-white transition-colors text-sm font-bold group">
+                  <a href="mailto:sunrent20@gmail.com" className="flex items-center gap-3 text-white/90 hover:text-white transition-colors text-sm font-bold group">
                     <Mail size={14} className="shrink-0" />
-                    satvikpipe@gmail.com
+                    sunrent20@gmail.com
                   </a>
                   <div className="flex items-start gap-3 text-white/90 text-sm">
                     <MapPin size={14} className="shrink-0 mt-0.5" />
-                    749/7/4, G.I.D.C. Makarpura, Vadodara - 390 010
+                    C-1/289, Shop No. 1-2, Shree Pramukh Swami Industrial Estate, Makarpura, Vadodara - 390 010
                   </div>
                 </div>
               </div>

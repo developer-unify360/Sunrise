@@ -10,7 +10,7 @@ const testimonials = [
     company: 'Petrochemical Solutions Pvt. Ltd.',
     role: 'Purchase Manager',
     image: IMG_T1,
-    text: 'Satvik Pipe Industries has been our trusted supplier for SS pipes and fittings for over 8 years. Their product quality, timely delivery and after-sales support is unmatched in the industry.',
+    text: 'Sunrise Enterprise has been our trusted supplier for SS pipes and fittings for over 8 years. Their product quality, timely delivery and after-sales support is unmatched in the industry.',
     rating: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     company: 'Pharma Tech Industries',
     role: 'VP Operations',
     image: IMG_T2,
-    text: 'We rely on Satvik for all our dairy and pharma grade fittings. Their material test certificates, documentation and product quality meet every regulatory requirement we have. Highly recommended.',
+    text: 'We rely on Sunrise Enterprise for all our dairy and pharma grade fittings. Their material test certificates, documentation and product quality meet every regulatory requirement we have. Highly recommended.',
     rating: 5,
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     company: 'Gulf Export Trading LLC',
     role: 'Procurement Director',
     image: IMG_T3,
-    text: 'Satvik has been exporting to us in the Middle East for 5 years. Excellent packing, on-time shipments and every product passes our third-party inspection without issues. A truly reliable partner.',
+    text: 'Sunrise Enterprise has been exporting to us in the Middle East for 5 years. Excellent packing, on-time shipments and every product passes our third-party inspection without issues. A truly reliable partner.',
     rating: 5,
   },
 ];

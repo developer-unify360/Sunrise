@@ -40,9 +40,9 @@ export default function ContactSection() {
 
               <div className="space-y-6">
                 {[
-                  { icon: Phone, label: 'Phone', value: '+91 97232 69427', sub: 'Mon–Sat 9AM–6PM', href: 'tel:+919723269427' },
-                  { icon: Mail, label: 'Email', value: 'satvikpipe@gmail.com', sub: 'Reply within 24 hours', href: 'mailto:satvikpipe@gmail.com' },
-                  { icon: MapPin, label: 'Address', value: '749/7/4, G.I.D.C. Makarpura', sub: 'Vadodara, Gujarat - 390 010', href: 'https://maps.google.com' },
+                  { icon: Phone, label: 'Phone', value: '+91 0265 - 2632006', sub: 'Mon–Sat 9AM–6PM', href: 'tel:+91-0265-2632006' },
+                  { icon: Mail, label: 'Email', value: 'sunrent20@gmail.com', sub: 'Reply within 24 hours', href: 'mailto:sunrent20@gmail.com' },
+                  { icon: MapPin, label: 'Address', value: 'C-1/289, Shop No. 1-2, Shree Pramukh Swami', sub: 'Makarpura, Vadodara - 390 010', href: 'https://maps.google.com' },
                   { icon: Clock, label: 'Hours', value: 'Mon–Sat: 9:00 AM – 6:00 PM', sub: 'Sunday: Closed' },
                 ].map(item => {
                   const content = (
@@ -78,7 +78,7 @@ export default function ContactSection() {
               <div className="flex gap-3">
                 {[
                   { label: 'FB', href: 'https://www.facebook.com/share/1HxGxwpV4S/' },
-                  { label: 'IG', href: 'https://www.instagram.com/satvikpipeindustries?igsh=eWdsbjhqcWI2d2M1' },
+                  { label: 'IG', href: 'https://www.instagram.com/sunriseenterprise' },
                 ].map(s => (
                   <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
                     className="w-10 h-10 bg-white/20 hover:bg-white hover:text-orange-500 flex items-center justify-center text-white text-xs font-black transition-all duration-200">

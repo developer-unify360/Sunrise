@@ -43,7 +43,7 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About"
-        highlight="Satvik Pipe Industries"
+        highlight="Sunrise Enterprise"
         subtitle="35+ years of excellence in stainless steel pipes, fittings, flanges and raw materials supply worldwide."
         image={IMG_MOLTEN_STEEL}
       />
@@ -55,7 +55,7 @@ export default function AboutPage() {
             <div className="relative">
               <img
                 src={IMG_MOLTEN_STEEL}
-                alt="Satvik factory floor"
+                alt="Sunrise Enterprise factory floor"
                 className="w-full h-[480px] object-cover"
               />
               <div className="absolute -bottom-8 -right-8 w-56 h-56 border-4 border-white z-20 hidden md:block">
@@ -65,8 +65,8 @@ export default function AboutPage() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -top-6 -left-6 w-32 h-32 bg-orange-500 -z-0" />
-              <div className="absolute top-6 left-6 bg-orange-500 text-white p-5 z-20">
+              <div className="absolute -top-6 -left-6 w-32 h-32 bg-blue-600 -z-0" />
+              <div className="absolute top-6 left-6 bg-blue-600 text-white p-5 z-20">
                 <div className="text-5xl font-black leading-none">35</div>
                 <div className="text-xs uppercase tracking-widest font-bold mt-1">Years of<br />Excellence</div>
               </div>
@@ -74,14 +74,14 @@ export default function AboutPage() {
 
             <div className="lg:pl-8">
               <div className="inline-flex items-center gap-2 mb-4">
-                <div className="w-8 h-0.5 bg-orange-500" />
-                <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">Our Story</span>
+                <div className="w-8 h-0.5 bg-blue-600" />
+                <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">Our Story</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight mb-6 text-gray-900">
-                A Legacy of <span className="text-orange-500">Quality</span>
+                A Legacy of <span className="text-blue-600">Quality"
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Satvik Pipe Industries, based in Vadodara (Gujarat), is a leading manufacturer and supplier of Stainless Steel Pipes, Fittings, Flanges, Valves and Raw Materials. We have been serving the industry since 1987 with an unwavering commitment to quality.
+                SUNRISE ENTERPRISE, based in Vadodara (Gujarat), is a leading manufacturer and supplier of Stainless Steel Pipes, Fittings, Flanges, Valves and Raw Materials. We have been serving the industry since 1987 with an unwavering commitment to quality.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 From precision dairy fittings to heavy-duty industrial flanges, our comprehensive product range meets international standards (ASTM, ASME, DIN, JIS, EN) — ensuring quality, reliability and on-time delivery every time.
@@ -104,19 +104,19 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 mb-4 justify-center">
-              <div className="w-8 h-0.5 bg-orange-500" />
-              <span className="text-orange-500 text-xs font-bold uppercase tracking-[0.3em]">What Drives Us</span>
-              <div className="w-8 h-0.5 bg-orange-500" />
+              <div className="w-8 h-0.5 bg-blue-600" />
+              <span className="text-blue-600 text-xs font-bold uppercase tracking-[0.3em]">What Drives Us</span>
+              <div className="w-8 h-0.5 bg-blue-600" />
             </div>
             <h2 className="text-4xl md:text-5xl font-black uppercase leading-tight text-gray-900">
-              Our Core <span className="text-orange-500">Values</span>
+              Our Core <span className="text-blue-600">Values"
             </h2>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {values.map(v => (
-              <div key={v.title} className="group bg-white p-8 hover:shadow-xl border border-gray-200 hover:border-orange-500 transition-all duration-300 border-t-4 border-t-orange-500">
-                <div className="w-14 h-14 border-2 border-orange-500 flex items-center justify-center mb-5 group-hover:bg-orange-500 transition-colors">
-                  <v.icon size={24} className="text-orange-500 group-hover:text-white transition-colors" />
+              <div key={v.title} className="group bg-white p-8 hover:shadow-xl border border-gray-200 hover:border-blue-600 transition-all duration-300 border-t-4 border-t-blue-600">
+                <div className="w-14 h-14 border-2 border-blue-600 flex items-center justify-center mb-5 group-hover:bg-blue-600 transition-colors">
+                  <v.icon size={24} className="text-blue-600 group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="text-gray-900 font-bold text-lg uppercase tracking-wide mb-3">{v.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{v.desc}</p>
